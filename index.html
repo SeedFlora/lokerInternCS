@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#164e58">
+  <meta name="theme-color" content="#4838f5">
   <meta name="description" content="Rangkuman lowongan magang untuk mahasiswa dan awal karier. Jelajahi lowongan, simpan pilihanmu, dan cek tautan sumber sebelum melamar.">
   <title>lokerInternCS — Temukan langkah pertama kariermu</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23164e58'/%3E%3Cpath d='M18 44 44 18M21 18h23v23' stroke='%23f6f3eb' stroke-width='6' fill='none'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234838f5'/%3E%3Cpath d='M18 44 44 18M21 18h23v23' stroke='%23ffffff' stroke-width='6' fill='none'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
 </head>
@@ -29,6 +29,7 @@
       </a>
       <nav aria-label="Navigasi utama">
         <a href="#lowongan">Jelajahi lowongan</a>
+        <a href="#cara">Cara memulai</a>
         <a class="about-link" href="#tentang">Tentang kurasi</a>
       </nav>
       <button class="header-saved" id="header-saved" type="button"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg><span>Tersimpan</span><span class="saved-count" id="saved-count">0</span></button>
@@ -38,24 +39,27 @@
   <main>
     <section class="hero container" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> PAPAN PELUANG MAGANG</p>
+        <p class="eyebrow"><span class="status-dot"></span> PELUANG BESAR DIMULAI DI SINI</p>
         <h1 id="hero-title">Temukan langkah<br>pertama <span>kariermu.</span></h1>
         <p class="hero-description">Peluang magang dari berbagai sumber, dirangkum agar kamu lebih mudah memilih dan mulai melamar.</p>
-        <a class="primary-link" href="#lowongan">Jelajahi peluang <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        <form class="hero-search" id="hero-search" role="search" aria-label="Mulai cari peluang"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><label class="sr-only" for="hero-query">Posisi, perusahaan, atau lokasi</label><input id="hero-query" type="search" placeholder="Posisi, perusahaan, atau lokasi…"><button class="primary-link" type="submit">Cari peluang <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></form>
+        <a class="hero-browse" href="#lowongan">Jelajahi semua referensi <span aria-hidden="true">→</span></a>
         <p class="hero-update"><span class="status-dot"></span><span id="updated-at">Memuat waktu pembaruan…</span></p>
       </div>
-      <aside class="hero-board" aria-label="Ringkasan koleksi lowongan">
-        <div class="board-top"><span>YOUR NEXT CHAPTER</span><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></div>
-        <div class="board-number" id="total-jobs">—</div>
-        <p class="board-label">referensi magang<br>dan awal karier.</p>
-        <div class="board-bottom"><span id="source-count">Berbagai sumber</span><span class="board-star" aria-hidden="true">✳</span><span>Dikurasi.<br>Siap dijelajahi.</span></div>
-        <span class="board-sticker">MULAI DARI SINI ↗</span>
+      <aside class="hero-art" aria-label="Ilustrasi dan ringkasan koleksi">
+        <div class="hero-panel" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span></div>
+        <div class="dot-pattern dots-top" aria-hidden="true"></div>
+        <img class="hero-photo" src="./assets/dialyn-hero-v2.webp" alt="Ilustrasi Dialyn sedang belajar teknologi menggunakan laptop" width="800" height="1000" fetchpriority="high">
+        <div class="hero-stat"><span class="stat-icon"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><div><strong id="total-jobs">—</strong><span>referensi magang &amp; awal karier</span><small id="source-count">Berbagai sumber</small></div></div>
+        <div class="dot-pattern dots-bottom" aria-hidden="true"></div>
       </aside>
     </section>
 
+    <section class="steps-section container" id="cara" aria-labelledby="steps-title"><p class="eyebrow">SELANGKAH LEBIH DEKAT</p><h2 id="steps-title">Mulai dengan <span>4 langkah mudah.</span></h2><p class="section-description">Dari rasa ingin tahu sampai lamaran pertamamu.</p><div class="steps-grid"><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg></span><span class="step-number">01</span><h3>Cari peluang</h3><p>Temukan bidang, perusahaan, atau lokasi yang ingin kamu jelajahi.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg></span><span class="step-number">02</span><h3>Simpan pilihan</h3><p>Tandai peluang menarik dan bandingkan persyaratannya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg></span><span class="step-number">03</span><h3>Cek sumber</h3><p>Pastikan ketersediaan, periode, dan detail di sumber aslinya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="step-number">04</span><h3>Mulai melamar</h3><p>Siapkan berkasmu dan ikuti instruksi lamaran dari sumber.</p></article></div></section>
+
     <section class="jobs-section" id="lowongan" aria-labelledby="jobs-title">
       <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">TEMUKAN YANG COCOK</p><h2 id="jobs-title">Peluang, satu per satu<span>.</span></h2></div><p class="section-aside">Mulai dengan rasa ingin tahu.<br>Berikutnya, ambil kesempatan.</p></div>
+        <div class="section-heading"><div><p class="eyebrow">TEMUKAN YANG COCOK</p><h2 id="jobs-title">Peluang untuk <span>langkah berikutnya.</span></h2></div><p class="section-aside">Jelajahi referensi, temukan yang sesuai dengan minatmu.</p></div>
         <form id="filters" class="filter-panel" role="search" aria-label="Cari dan filter lowongan">
           <div class="search-control"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><label class="sr-only" for="search">Cari posisi, perusahaan, atau lokasi</label><input id="search" name="search" type="search" autocomplete="off" placeholder="Cari posisi, perusahaan, atau lokasi…"></div>
           <div class="select-control"><label for="category">Bidang</label><select id="category" name="category"><option value="">Semua bidang</option></select></div>
@@ -82,13 +86,15 @@
       </div>
     </section>
 
+    <section class="closing-section container" aria-labelledby="closing-title"><div class="closing-panel"><div><p class="eyebrow">CERITA BARUMU DIMULAI DENGAN SATU LANGKAH</p><h2 id="closing-title">Siap menemukan<br>peluang pertamamu?</h2><p>Pilih yang menarik, cek detailnya, lalu ambil kesempatan.</p></div><a class="primary-link" href="#lowongan">Temukan peluang <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a><span class="closing-orbit" aria-hidden="true"></span></div></section>
     <section class="about-section container" id="tentang" aria-labelledby="about-title"><div><p class="eyebrow">TENTANG PAPAN INI</p><h2 id="about-title">Lebih mudah menemukan.<br>Lebih siap melangkah.</h2></div><div class="about-copy"><p>lokerInternCS merangkum peluang magang dari arsip postingan dan penelusuran sumber publik. Setiap entri menyertakan sumber agar kamu bisa membaca informasi lengkap dan mengecek ketersediaannya.</p><p id="coverage">Periksa syarat, periode, lokasi, dan cara melamar langsung di tautan sumber.</p><p>Gunakan tanda simpan untuk membuat daftar pilihanmu. Pilihan tersimpan di browser perangkat ini.</p></div></section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="./">loker<span class="brand-light">Intern</span>CS<span class="brand-dot">.</span></a><p>Langkah kecil hari ini. Cerita baru besok.</p><a href="#hero-title">Kembali ke atas ↑</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="./">loker<span class="brand-light">Intern</span>CS<span class="brand-dot">.</span></a><p>Langkah kecil hari ini. Cerita baru besok.</p><a href="#hero-title">Kembali ke atas ↑</a></div><div class="container design-credit">Inspirasi tampilan: <a href="https://www.behance.net/gallery/104398677/Aajob-Job-finding-landing-page/modules/599826963" target="_blank" rel="noopener noreferrer">Aajob di Behance</a></div></footer>
 
   <dialog id="job-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Tutup detail"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button><div id="dialog-content"></div></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript><div class="noscript-note">Aktifkan JavaScript untuk mencari dan melihat daftar lowongan. Data lengkap juga tersedia di <a href="./data/jobs.json">berkas lowongan</a>.</div></noscript>
 </body>
 </html>
+

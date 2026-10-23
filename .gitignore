@@ -1,4 +1,9 @@
 data/archive.json
 data/research.json
+data/enrichment.json
+assets/hero-team.webp
+assets/hero-prompt.md
+assets/dialyn-hero.webp
+assets/dialyn-prompt.md
 *.log
 __pycache__/

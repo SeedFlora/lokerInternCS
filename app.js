@@ -37,14 +37,27 @@
     } catch { return null; }
   }
 
-  function sourceLink(url, text, className) {
-    const href = validUrl(url);
+  function validApplicationUrl(value) {
+    const website = validUrl(value);
+    if (website) return website;
+    try {
+      const url = new URL(value);
+      const email = decodeURIComponent(url.pathname);
+      return url.protocol === 'mailto:' && !url.search && !url.hash && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? url.href : null;
+    } catch { return null; }
+  }
+
+  function sourceLink(url, text, className, allowEmail = false) {
+    const href = allowEmail ? validApplicationUrl(url) : validUrl(url);
     if (!href) return null;
     const link = element('a', className, text);
     link.href = href;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.setAttribute('aria-label', `${text} (buka tab baru)`);
+    if (href.startsWith('mailto:')) link.setAttribute('aria-label', `${text} (buka aplikasi email)`);
+    else {
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.setAttribute('aria-label', `${text} (buka tab baru)`);
+    }
     return link;
   }
 
@@ -70,7 +83,7 @@
   function companyLogo(job) {
     const logo = element('span', 'company-logo', initials(job.company));
     logo.setAttribute('aria-hidden', 'true');
-    const swatches = [['#e6ebdf', '#365e45'], ['#e5eceb', '#33616a'], ['#f3e5d5', '#8e673c'], ['#e8e6ed', '#665b7d']];
+    const swatches = [['#efedff', '#5743c7'], ['#e9efff', '#3c64a5'], ['#fff0e8', '#a66d43'], ['#f6eafb', '#8754a0']];
     const index = Array.from(job.company).reduce((value, char) => value + char.codePointAt(0), 0) % swatches.length;
     [logo.style.backgroundColor, logo.style.color] = swatches[index];
     return logo;
@@ -190,17 +203,17 @@
       notes.append(element('h3', '', 'Catatan kurasi'), element('p', '', job.notes));
       content.append(notes);
     }
-    content.append(element('p', 'dialog-source-note', 'Tanggal dibagikan bukan tanggal publikasi. Periksa informasi, ketersediaan, dan instruksi melamar langsung di sumber. Tautan berikut dibuka di tab baru.'));
+    content.append(element('p', 'dialog-source-note', 'Tanggal dibagikan bukan tanggal publikasi. Periksa informasi, ketersediaan, dan instruksi melamar langsung di sumber. Tautan situs dibuka di tab baru; alamat email dibuka di aplikasi email.'));
     const actions = element('div', 'dialog-actions');
-    const applyUrl = validUrl(job.applyUrl);
+    const applyUrl = validApplicationUrl(job.applyUrl);
     const sourceUrl = validUrl(job.sourceUrl);
     if (applyUrl && applyUrl !== sourceUrl) {
-      const apply = sourceLink(applyUrl, 'Lihat cara melamar', 'primary-link');
+      const apply = sourceLink(applyUrl, applyUrl.startsWith('mailto:') ? 'Email rekrutmen' : 'Lihat cara melamar', 'primary-link', true);
       apply.append(icon('arrow'));
       actions.append(apply);
       if (sourceUrl) actions.append(sourceLink(sourceUrl, 'Lihat sumber', 'secondary-link'));
     } else if (sourceUrl || applyUrl) {
-      const source = sourceLink(sourceUrl || applyUrl, 'Buka lowongan di sumber', 'primary-link');
+      const source = sourceLink(sourceUrl || applyUrl, applyUrl?.startsWith('mailto:') && !sourceUrl ? 'Email rekrutmen' : 'Buka lowongan di sumber', 'primary-link', true);
       source.append(icon('arrow'));
       actions.append(source);
     } else actions.append(element('p', 'dialog-source-note', 'Tautan sumber belum tersedia.'));
@@ -265,10 +278,19 @@
     state.collection = 'all';
     state.sort = 'newest';
     $('#search').value = $('#category').value = $('#type').value = $('#source').value = '';
+    $('#hero-query').value = '';
     $('#sort').value = 'newest';
     render();
   }
   $('#filters').addEventListener('submit', (event) => event.preventDefault());
+  $('#hero-search').addEventListener('submit', (event) => {
+    event.preventDefault();
+    state.search = $('#hero-query').value;
+    $('#search').value = state.search;
+    state.collection = 'all';
+    render();
+    $('#lowongan').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  });
   $('#search').addEventListener('input', (event) => { state.search = event.target.value; render(); });
   ['category', 'type', 'source', 'sort'].forEach((field) => $(`#${field}`).addEventListener('change', (event) => { state[field] = event.target.value; render(); }));
   $('#clear-filters').addEventListener('click', resetFilters);

@@ -40,6 +40,8 @@ Pada **Settings → Pages → Build and deployment**, pilih **Deploy from a bran
 - Urutan tanggal kurasi / sumber memakai tanggal publikasi jika diketahui, lalu tanggal dibagikan, lalu tanggal peninjauan. Kartu menyebut jenis tanggal yang digunakan dengan jelas.
 - Tombol simpan menggunakan `localStorage` pada browser pengunjung. Jika penyimpanan tidak tersedia, simpanan berlaku selama sesi halaman.
 - Detail posisi terbuka dalam dialog yang dapat ditutup dengan tombol atau Escape. Tautan eksternal terbuka di tab baru.
-- Informasi di JSON ditampilkan sebagai teks; URL dibatasi pada HTTP/HTTPS.
+- Informasi di JSON ditampilkan sebagai teks; sumber dibatasi pada HTTP/HTTPS. Tautan melamar juga mendukung `mailto:` untuk alamat email rekrutmen tanpa parameter tambahan. Tombol ini membuka aplikasi email pengunjung dan tidak mengirim pesan secara otomatis.
 
 Tampilan memakai font sistem sebagai cadangan jika Google Fonts tidak dapat dimuat. Website tidak menyertakan analitik atau layanan backend.
+
+Ilustrasi hero bertema Dialyn dibuat melalui built-in ImageGen berdasarkan referensi pengguna. Aset terpilih: `assets/dialyn-hero-v2.webp`; prompt lengkap ada di `assets/dialyn-v2-prompt.md`. Arah visual situs terinspirasi dari [Aajob karya Akash Das](https://www.behance.net/gallery/104398677/Aajob-Job-finding-landing-page/modules/599826963).
