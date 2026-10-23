@@ -30,4 +30,6 @@ dialog{padding:0;border:1px solid #d4cbef;border-radius:13px;background:#fff;col
 .company-level-note{font-size:8px;line-height:1.5;color:#8b7899}
 @media(max-width:600px){.company-level-note{font-size:9px}}
 .guide-reset{background:var(--soft);color:var(--accent);font-size:10px;border-radius:6px;padding:11px 12px;flex:none;min-height:36px}.hero-tier-link{margin-left:18px}
+.hero-calendar-link{display:flex;width:fit-content;margin-top:9px}.date-source-link{text-decoration:underline;text-underline-offset:3px;color:var(--accent)}
+@media(max-width:820px){.header-inner nav .calendar-nav-link{display:none}}
 @media(max-width:600px){.guide-reset{width:100%;padding:9px}.hero-tier-link{margin-left:14px}}

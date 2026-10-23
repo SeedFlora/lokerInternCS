@@ -475,7 +475,12 @@
       "applyUrl": null,
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Batas waktu pada caption: 16 November 2026 pukul 15.00 WIB. Pertemuan daring pertengahan Desember 2026 dan wawancara di Indonesia 11–13 Januari 2027; tautan formulir tidak tercantum pada caption."
+      "notes": "Batas waktu pada caption: 16 November 2026 pukul 15.00 WIB. Pertemuan daring pertengahan Desember 2026 dan wawancara di Indonesia 11–13 Januari 2027; tautan formulir tidak tercantum pada caption.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/Dewdw92gdGP/",
+        "label": "Caption Instagram"
+      },
+      "deadlineTime": "15:00 WIB"
     },
     {
       "id": "arsip-007",
@@ -612,7 +617,12 @@
       "applyUrl": "https://www.inlifesurabaya.com/",
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Ringkasan berdasarkan caption publik. Detail dan kualifikasi pada gambar belum diperiksa; periksa sumber sebelum melamar."
+      "notes": "Ringkasan berdasarkan caption publik. Detail dan kualifikasi pada gambar belum diperiksa; periksa sumber sebelum melamar.",
+      "applicationStartDate": "2026-10-19",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DerO1dNGsvR/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-013",
@@ -973,7 +983,11 @@
       "applyUrl": "https://karir.itb.ac.id/",
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Ini lowongan pekerjaan junior; caption tidak menyebut program magang. Kualifikasi dan bentuk kontrak harus dikonfirmasi pada sumber."
+      "notes": "Ini lowongan pekerjaan junior; caption tidak menyebut program magang. Kualifikasi dan bentuk kontrak harus dikonfirmasi pada sumber.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DegnvyrE5zQ/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-029",
@@ -1086,7 +1100,12 @@
       "applyUrl": "https://bit.ly/BoschInternshipProgram2027",
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Seluruh 5 slide poster dibaca langsung tanpa login. Batas daftar 4 November 2026 eksplisit pada slide pertama. Tautan pendek disalin persis dari slide terakhir; ketersediaan masing-masing posisi di situs rekrutmen belum diverifikasi. Skema pada sumber: Magang berbayar 6 bulan."
+      "notes": "Seluruh 5 slide poster dibaca langsung tanpa login. Batas daftar 4 November 2026 eksplisit pada slide pertama. Tautan pendek disalin persis dari slide terakhir; ketersediaan masing-masing posisi di situs rekrutmen belum diverifikasi. Skema pada sumber: Magang berbayar 6 bulan.",
+      "applicationStartDate": "2026-10-14",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/Defg5c8E415/",
+        "label": "Poster Instagram (5 slide)"
+      }
     },
     {
       "id": "arsip-034",
@@ -1149,7 +1168,12 @@
       "applyUrl": null,
       "status": "Tenggat lewat",
       "provenance": "Arsip postingan",
-      "notes": "Periode pendaftaran pada caption 13–20 Oktober 2026 telah lewat. Tautan pendaftaran berada pada QR poster yang belum terbaca."
+      "notes": "Periode pendaftaran pada caption 13–20 Oktober 2026 telah lewat. Tautan pendaftaran berada pada QR poster yang belum terbaca.",
+      "applicationStartDate": "2026-10-13",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/Deb735YIzKW/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-037",
@@ -1270,7 +1294,11 @@
       "applyUrl": "https://bit.ly/internbisaproject",
       "status": "Tenggat lewat",
       "provenance": "Arsip postingan",
-      "notes": "Tenggat 15 Oktober 2026 pada caption telah lewat. Persyaratan pada gambar belum diperiksa."
+      "notes": "Tenggat 15 Oktober 2026 pada caption telah lewat. Persyaratan pada gambar belum diperiksa.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DeVqSmEoKnh/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-042",
@@ -1317,7 +1345,12 @@
       "applyUrl": null,
       "status": "Tenggat lewat",
       "provenance": "Arsip postingan",
-      "notes": "Tenggat pendaftaran telah lewat. Caption menjadwalkan wawancara 26 Oktober–6 November dan onboarding 23–25 November 2026; rincian poster belum diperiksa."
+      "notes": "Tenggat pendaftaran telah lewat. Caption menjadwalkan wawancara 26 Oktober–6 November dan onboarding 23–25 November 2026; rincian poster belum diperiksa.",
+      "applicationStartDate": "2026-10-07",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DeODtY_E7Na/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-044",
@@ -1359,7 +1392,11 @@
       "applyUrl": "https://tcg.metro.tokyo.lg.jp/",
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Acara penghubung rekrutmen; jenis pekerjaan dan persyaratan berbeda untuk tiap perusahaan. Jadwal bersumber dari caption dan perlu dikonfirmasi pada penyelenggara."
+      "notes": "Acara penghubung rekrutmen; jenis pekerjaan dan persyaratan berbeda untuk tiap perusahaan. Jadwal bersumber dari caption dan perlu dikonfirmasi pada penyelenggara.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DeFOEa8ARCn/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-046",
@@ -1380,7 +1417,11 @@
       "applyUrl": "https://career.unitedtractors.com/",
       "status": "Tenggat lewat",
       "provenance": "Arsip postingan",
-      "notes": "Tenggat pada caption telah lewat. Sumber menyatakan lowongan tersedia melalui Astra Career; ketentuan tiap program perlu diperiksa."
+      "notes": "Tenggat pada caption telah lewat. Sumber menyatakan lowongan tersedia melalui Astra Career; ketentuan tiap program perlu diperiksa.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/DedmOUmlNZ1/",
+        "label": "Caption Instagram"
+      }
     },
     {
       "id": "arsip-047",
@@ -1444,7 +1485,7 @@
       "requirements": [
         "Mahasiswa tingkat akhir"
       ],
-      "deadline": null,
+      "deadline": "2026-11-12",
       "postedDate": null,
       "sharedDate": "2026-10-14",
       "checkedDate": "2026-10-23",
@@ -1453,7 +1494,12 @@
       "applyUrl": null,
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Ringkasan berdasarkan caption publik. Detail dan kualifikasi pada gambar belum diperiksa; periksa sumber sebelum melamar."
+      "notes": "Ringkasan berdasarkan caption publik. Detail dan kualifikasi pada gambar belum diperiksa; periksa sumber sebelum melamar.",
+      "applicationStartDate": "2026-10-12",
+      "applicationDateSource": {
+        "url": "https://careers.se.com/jobs/137438?lang=en-US",
+        "label": "Karier resmi Schneider Electric — YES Academy, referensi 137438"
+      }
     },
     {
       "id": "arsip-050",
@@ -1500,7 +1546,12 @@
       "applyUrl": "https://forms.gle/TeaTmw64YiKqw7hC8",
       "status": "Perlu cek sumber",
       "provenance": "Arsip postingan",
-      "notes": "Batas tahap pertama pada caption: 31 Oktober 2026 pukul 23.59 WIB. Bahasa Jepang disebut berlangsung daring; format komponen lain dan persyaratan lengkap perlu diperiksa."
+      "notes": "Batas tahap pertama pada caption: 31 Oktober 2026 pukul 23.59 WIB. Bahasa Jepang disebut berlangsung daring; format komponen lain dan persyaratan lengkap perlu diperiksa.",
+      "applicationDateSource": {
+        "url": "https://www.instagram.com/p/Dedpz0Vy_M3/",
+        "label": "Caption Instagram"
+      },
+      "deadlineTime": "23:59 WIB"
     },
     {
       "id": "arsip-052",

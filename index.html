@@ -10,7 +10,9 @@
   <script src="./theme.js"></script>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./themes.css">
+  <link rel="stylesheet" href="./calendar.css">
   <script src="./company-guide.js" defer></script>
+  <script src="./calendar.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -33,7 +35,7 @@
       <nav aria-label="Navigasi utama">
         <a href="#lowongan">Jelajahi lowongan</a>
         <a href="#rekomendasi">Tier &amp; tips</a>
-        <a class="about-link" href="#tentang">Tentang kurasi</a>
+        <a class="calendar-nav-link" href="#kalender">Kalender</a>
       </nav>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Ganti tema"><span aria-hidden="true" class="theme-symbol">◐</span><span id="theme-label">Tema</span></button>
       <button class="header-saved" id="header-saved" type="button"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg><span>Tersimpan</span><span class="saved-count" id="saved-count">0</span></button>
@@ -49,6 +51,7 @@
         <form class="hero-search" id="hero-search" role="search" aria-label="Mulai cari peluang"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><label class="sr-only" for="hero-query">Posisi, perusahaan, atau lokasi</label><input id="hero-query" type="search" placeholder="Posisi, perusahaan, atau lokasi…"><button class="primary-link" type="submit">Cari peluang <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></form>
         <a class="hero-browse" href="#lowongan">Jelajahi semua referensi <span aria-hidden="true">→</span></a>
         <a class="hero-browse hero-tier-link" href="#rekomendasi">Lihat tier list <span aria-hidden="true">↗</span></a>
+        <a class="hero-browse hero-calendar-link" href="#kalender">Kalender posting &amp; apply <span aria-hidden="true">↗</span></a>
         <p class="hero-update"><span class="status-dot"></span><span id="updated-at">Memuat waktu pembaruan…</span></p>
       </div>
       <aside class="hero-art" aria-label="Ilustrasi dan ringkasan koleksi">
@@ -61,6 +64,11 @@
     </section>
 
     <section class="steps-section container" id="cara" aria-labelledby="steps-title"><p class="eyebrow">SELANGKAH LEBIH DEKAT</p><h2 id="steps-title">Mulai dengan <span>4 langkah mudah.</span></h2><p class="section-description">Dari rasa ingin tahu sampai lamaran pertamamu.</p><div class="steps-grid"><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg></span><span class="step-number">01</span><h3>Cari peluang</h3><p>Temukan bidang, perusahaan, atau lokasi yang ingin kamu jelajahi.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg></span><span class="step-number">02</span><h3>Simpan pilihan</h3><p>Tandai peluang menarik dan bandingkan persyaratannya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg></span><span class="step-number">03</span><h3>Cek sumber</h3><p>Pastikan ketersediaan, periode, dan detail di sumber aslinya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="step-number">04</span><h3>Mulai melamar</h3><p>Siapkan berkasmu dan ikuti instruksi lamaran dari sumber.</p></article></div></section>
+
+    <section class="calendar-section container" id="kalender" aria-labelledby="calendar-title">
+      <div class="section-heading"><p class="eyebrow">RENCANAKAN LANGKAHMU</p><h2 id="calendar-title">Kalender posting <span>&amp; apply.</span></h2><p class="section-aside">Lihat kapan referensi dibagikan dan catat jadwal pendaftaran yang tersedia.</p></div>
+      <div id="calendar-root"><p class="calendar-loading" role="status">Memuat kalender lowongan…</p></div>
+    </section>
 
     <section class="company-guide-section container" id="rekomendasi" aria-labelledby="guide-title">
       <div class="section-heading"><p class="eyebrow">INTERNSHIP STRATEGY BOARD</p><h2 id="guide-title">Company <span>Tier List.</span></h2><p class="section-aside">Pilih ikon perusahaan untuk membaca alasan, ulasan, dan tips persiapannya.</p></div>

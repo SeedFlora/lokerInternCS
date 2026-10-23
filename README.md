@@ -53,4 +53,13 @@ Tampilan memakai font sistem sebagai cadangan jika Google Fonts tidak dapat dimu
 - `company-guide.js` merender tier, profil, dan sumber; `theme.js` serta `themes.css` menyediakan tema terang/gelap. Pilihan disimpan dalam browser dan mengikuti preferensi sistem sampai pengunjung memilih sendiri.
 - Perubahan data dapat diperiksa lewat server lokal, kemudian commit dan push `main` untuk publikasi GitHub Pages.
 
+## Kalender posting dan pendaftaran
+
+- `calendar.js` dan `calendar.css` menampilkan kalender bulanan, agenda tanggal pilihan, pencarian perusahaan/posisi, serta filter posting dan pendaftaran. Klik entri untuk membuka detail lowongan yang sama dengan kartu daftar.
+- Kalender memakai `postedDate` untuk publikasi dan `sharedDate` untuk tanggal dibagikan, dengan label berbeda. `checkedDate` tidak menjadi acara posting.
+- `applicationStartDate` adalah tanggal pembukaan pendaftaran dan `deadline` tanggal penutupannya, dalam format `YYYY-MM-DD`. Gunakan `null` atau abaikan field jika tidak diketahui. Jangan memakai periode pelaksanaan magang sebagai periode apply.
+- Rentang pendaftaran hanya ditampilkan jika kedua ujung tanggal tersedia. Tenggat tanpa tanggal mulai tetap ditampilkan sebagai tenggat, tanpa menganggap pendaftaran sudah dibuka. Rentang ini mengikuti sumber dan tidak menjamin posisi masih menerima lamaran.
+- Tambahkan `applicationDateSource: { "url": "https://…", "label": "Nama sumber tanggal" }` untuk bukti tanggal. `deadlineTime`, misalnya `"23:59 WIB"`, mempertahankan jam penutupan yang dinyatakan sumber; jangan mengarang jam jika tidak ada.
+- Tanggal kalender dan penanda hari ini menggunakan WIB (`Asia/Jakarta`). Agenda tetap menyertakan entri yang tenggatnya telah lewat agar arsip postingan dapat ditinjau.
+
 Ilustrasi hero bertema Dialyn dibuat melalui built-in ImageGen berdasarkan referensi pengguna. Aset terpilih: `assets/dialyn-hero-v2.webp`; prompt lengkap ada di `assets/dialyn-v2-prompt.md`. Arah visual situs terinspirasi dari [Aajob karya Akash Das](https://www.behance.net/gallery/104398677/Aajob-Job-finding-landing-page/modules/599826963).

@@ -193,7 +193,8 @@
       ['Ketersediaan', job.status || 'Perlu cek sumber'],
       ['Tanggal publikasi', dateText(job.postedDate)],
       ['Tanggal dibagikan', dateText(job.sharedDate)],
-      ['Batas melamar', dateText(job.deadline, job.deadline ? String(job.deadline) : 'Cek sumber')],
+      ['Pendaftaran mulai', dateText(job.applicationStartDate, 'Belum dicantumkan')],
+      ['Batas daftar / melamar', `${dateText(job.deadline, job.deadline ? String(job.deadline) : 'Belum dicantumkan')}${job.deadlineTime ? `, ${job.deadlineTime}` : ''}`],
       ['Terakhir ditinjau', dateText(job.checkedDate)],
       ['Koleksi', job.provenance || 'Riset web'],
     ];
@@ -203,6 +204,11 @@
       facts.append(pair);
     });
     content.append(facts);
+    if (job.applicationDateSource && validUrl(job.applicationDateSource.url)) {
+      const dateSource = element('p', 'dialog-source-note');
+      dateSource.append(document.createTextNode('Jadwal pendaftaran: '), sourceLink(job.applicationDateSource.url, job.applicationDateSource.label || 'Lihat sumber tanggal', 'date-source-link'));
+      content.append(dateSource);
+    }
     if (job.notes) {
       const notes = element('section', 'detail-block');
       notes.append(element('h3', '', 'Catatan kurasi'), element('p', '', job.notes));
@@ -335,11 +341,19 @@
       populateFilter('#type', state.jobs.map((job) => job.type));
       populateFilter('#source', state.jobs.map((job) => job.sourceType));
       render();
+      try {
+        if (!window.JobCalendar) throw new Error('Modul kalender tidak tersedia');
+        window.JobCalendar.mount(state.jobs, openDetails);
+      } catch (error) {
+        $('#calendar-root').textContent = 'Kalender belum dapat dimuat. Daftar lowongan tetap tersedia di bawah.';
+        console.error('Kalender tidak dapat ditampilkan:', error);
+      }
     } catch (error) {
       state.error = true;
       $('#updated-at').textContent = 'Data belum dapat dimuat';
       $('#source-count').textContent = 'Coba muat ulang halaman';
       render();
+      $('#calendar-root').textContent = 'Kalender belum dapat dimuat. Periksa koneksi, lalu muat ulang halaman.';
       console.error('Daftar lowongan tidak dapat dimuat:', error);
     }
   }
