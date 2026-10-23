@@ -4,7 +4,7 @@
   const $ = (selector) => document.querySelector(selector);
   const storageKey = 'lokerInternCS.saved.v1';
   const formatter = new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Jakarta' });
-  const state = { jobs: [], search: '', category: '', type: '', source: '', collection: 'all', sort: 'newest', saved: new Set(), error: false };
+  const state = { jobs: [], search: '', category: '', type: '', source: '', tier: '', difficulty: '', collection: 'all', sort: 'newest', saved: new Set(), error: false };
   let toastTimer;
   let dialogTrigger;
 
@@ -81,6 +81,8 @@
   }
 
   function companyLogo(job) {
+    const authentic = window.CompanyGuide?.logo(job);
+    if (authentic) return authentic;
     const logo = element('span', 'company-logo', initials(job.company));
     logo.setAttribute('aria-hidden', 'true');
     const swatches = [['#efedff', '#5743c7'], ['#e9efff', '#3c64a5'], ['#fff0e8', '#a66d43'], ['#f6eafb', '#8754a0']];
@@ -147,7 +149,7 @@
     location.append(icon('pin'), element('span', '', job.location || 'Lokasi: cek sumber'));
     const summary = element('p', 'card-summary', job.summary || 'Baca persyaratan dan cara melamar selengkapnya di tautan sumber.');
     const status = element('p', 'card-status', job.status || 'Perlu cek sumber');
-    if (/tenggat.*lewat|kedaluwarsa|ditutup|expired/i.test(job.status || '')) status.dataset.state = 'closed';
+    if (/tenggat.*lewat|kedaluwarsa|ditutup|expired|tidak lagi menerima/i.test(job.status || '')) status.dataset.state = 'closed';
     else if (/tidak tersedia|sumber tidak/i.test(job.status || '')) status.dataset.state = 'unavailable';
     const footer = element('div', 'card-footer');
     const dateLabel = parseDate(job.postedDate) ? `Dipublikasikan ${dateText(job.postedDate)}` : parseDate(job.sharedDate) ? `Dibagikan ${dateText(job.sharedDate)}` : parseDate(job.checkedDate) ? `Ditinjau ${dateText(job.checkedDate)}` : 'Tanggal: cek sumber';
@@ -158,7 +160,10 @@
     detail.append(icon('arrow'));
     detail.addEventListener('click', () => openDetails(job, detail));
     footer.append(date, detail);
-    article.append(top, title, tags, location, summary, status, footer);
+    article.append(top, title, tags, location, summary);
+    const companyAdvice = window.CompanyGuide?.cardAdvice(job);
+    if (companyAdvice) article.append(companyAdvice);
+    article.append(status, footer);
     return article;
   }
 
@@ -218,6 +223,7 @@
       actions.append(source);
     } else actions.append(element('p', 'dialog-source-note', 'Tautan sumber belum tersedia.'));
     content.append(actions);
+    window.CompanyGuide?.appendAdvice(content, job);
     $('#job-dialog').showModal();
     document.body.style.overflow = 'hidden';
   }
@@ -245,7 +251,7 @@
     const query = state.search.trim().toLocaleLowerCase('id-ID');
     const jobs = state.jobs.filter((job) => {
       const haystack = [job.title, job.company, job.category, job.location, job.mode, job.summary, ...(job.requirements || [])].join(' ').toLocaleLowerCase('id-ID');
-      return matchesCollection(job) && (!state.category || job.category === state.category) && (!state.type || job.type === state.type) && (!state.source || job.sourceType === state.source) && (!query || haystack.includes(query));
+      return matchesCollection(job) && (!state.category || job.category === state.category) && (!state.type || job.type === state.type) && (!state.source || job.sourceType === state.source) && (!query || haystack.includes(query)) && (!window.CompanyGuide || window.CompanyGuide.matches(job, state));
     });
     jobs.sort((a, b) => state.sort === 'company' ? a.company.localeCompare(b.company, 'id') : state.sort === 'title' ? a.title.localeCompare(b.title, 'id') : mostRelevantDate(b) - mostRelevantDate(a) || a.company.localeCompare(b.company, 'id'));
     const grid = $('#jobs-grid');
@@ -274,10 +280,10 @@
   function setCollection(value) { state.collection = value; render(); }
   function resetFilters() {
     if (state.error) { window.location.reload(); return; }
-    state.search = state.category = state.type = state.source = '';
+    state.search = state.category = state.type = state.source = state.tier = state.difficulty = '';
     state.collection = 'all';
     state.sort = 'newest';
-    $('#search').value = $('#category').value = $('#type').value = $('#source').value = '';
+    $('#search').value = $('#category').value = $('#type').value = $('#source').value = $('#tier').value = $('#difficulty').value = '';
     $('#hero-query').value = '';
     $('#sort').value = 'newest';
     render();
@@ -292,7 +298,7 @@
     $('#lowongan').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   });
   $('#search').addEventListener('input', (event) => { state.search = event.target.value; render(); });
-  ['category', 'type', 'source', 'sort'].forEach((field) => $(`#${field}`).addEventListener('change', (event) => { state[field] = event.target.value; render(); }));
+  ['category', 'type', 'source', 'sort', 'tier', 'difficulty'].forEach((field) => $(`#${field}`).addEventListener('change', (event) => { state[field] = event.target.value; render(); }));
   $('#clear-filters').addEventListener('click', resetFilters);
   $('#empty-reset').addEventListener('click', resetFilters);
   document.querySelectorAll('[data-collection]').forEach((button) => button.addEventListener('click', () => setCollection(button.dataset.collection)));
@@ -311,6 +317,7 @@
       const response = await fetch('./data/jobs.json', { cache: 'no-cache' });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
+      await window.CompanyGuide?.ready;
       if (!Array.isArray(data.jobs)) throw new Error('Format daftar lowongan tidak sesuai');
       const seen = new Set();
       state.jobs = data.jobs.filter((job) => {

@@ -1,6 +1,11 @@
 data/archive.json
 data/research.json
 data/enrichment.json
+data/company-identities.json
+data/advice-major.json
+data/advice-other.json
+data/logo-supplement.json
+data/logo-piyo.json
 assets/hero-team.webp
 assets/hero-prompt.md
 assets/dialyn-hero.webp

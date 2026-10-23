@@ -7,7 +7,10 @@
   <meta name="description" content="Rangkuman lowongan magang untuk mahasiswa dan awal karier. Jelajahi lowongan, simpan pilihanmu, dan cek tautan sumber sebelum melamar.">
   <title>lokerInternCS — Temukan langkah pertama kariermu</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234838f5'/%3E%3Cpath d='M18 44 44 18M21 18h23v23' stroke='%23ffffff' stroke-width='6' fill='none'/%3E%3C/svg%3E">
+  <script src="./theme.js"></script>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./themes.css">
+  <script src="./company-guide.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -29,9 +32,10 @@
       </a>
       <nav aria-label="Navigasi utama">
         <a href="#lowongan">Jelajahi lowongan</a>
-        <a href="#cara">Cara memulai</a>
+        <a href="#rekomendasi">Tier &amp; tips</a>
         <a class="about-link" href="#tentang">Tentang kurasi</a>
       </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Ganti tema"><span aria-hidden="true" class="theme-symbol">◐</span><span id="theme-label">Tema</span></button>
       <button class="header-saved" id="header-saved" type="button"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg><span>Tersimpan</span><span class="saved-count" id="saved-count">0</span></button>
     </div>
   </header>
@@ -44,6 +48,7 @@
         <p class="hero-description">Peluang magang dari berbagai sumber, dirangkum agar kamu lebih mudah memilih dan mulai melamar.</p>
         <form class="hero-search" id="hero-search" role="search" aria-label="Mulai cari peluang"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><label class="sr-only" for="hero-query">Posisi, perusahaan, atau lokasi</label><input id="hero-query" type="search" placeholder="Posisi, perusahaan, atau lokasi…"><button class="primary-link" type="submit">Cari peluang <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></form>
         <a class="hero-browse" href="#lowongan">Jelajahi semua referensi <span aria-hidden="true">→</span></a>
+        <a class="hero-browse hero-tier-link" href="#rekomendasi">Lihat tier list <span aria-hidden="true">↗</span></a>
         <p class="hero-update"><span class="status-dot"></span><span id="updated-at">Memuat waktu pembaruan…</span></p>
       </div>
       <aside class="hero-art" aria-label="Ilustrasi dan ringkasan koleksi">
@@ -57,6 +62,15 @@
 
     <section class="steps-section container" id="cara" aria-labelledby="steps-title"><p class="eyebrow">SELANGKAH LEBIH DEKAT</p><h2 id="steps-title">Mulai dengan <span>4 langkah mudah.</span></h2><p class="section-description">Dari rasa ingin tahu sampai lamaran pertamamu.</p><div class="steps-grid"><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg></span><span class="step-number">01</span><h3>Cari peluang</h3><p>Temukan bidang, perusahaan, atau lokasi yang ingin kamu jelajahi.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-bookmark"/></svg></span><span class="step-number">02</span><h3>Simpan pilihan</h3><p>Tandai peluang menarik dan bandingkan persyaratannya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg></span><span class="step-number">03</span><h3>Cek sumber</h3><p>Pastikan ketersediaan, periode, dan detail di sumber aslinya.</p></article><article class="step-card"><span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="step-number">04</span><h3>Mulai melamar</h3><p>Siapkan berkasmu dan ikuti instruksi lamaran dari sumber.</p></article></div></section>
 
+    <section class="company-guide-section container" id="rekomendasi" aria-labelledby="guide-title">
+      <div class="section-heading"><p class="eyebrow">INTERNSHIP STRATEGY BOARD</p><h2 id="guide-title">Company <span>Tier List.</span></h2><p class="section-aside">Pilih ikon perusahaan untuk membaca alasan, ulasan, dan tips persiapannya.</p></div>
+      <details class="guide-method"><summary>Kriteria tier, kesulitan, dan batas bukti</summary><div><p><strong>Tier rekomendasi</strong> menilai potensi belajar dan kecocokan peluang yang tercantum untuk mahasiswa CS. T0 (S) = prioritas tinggi, T1 (A) = pilihan bagus, T2 (B) = bergantung tujuan atau posisi. Ini penilaian kurasi, bukan peringkat resmi kualitas perusahaan.</p><p><strong>Kolom seleksi</strong> adalah perkiraan dari syarat peran, panduan seleksi, dan pengalaman kandidat. “Mudah (relatif)” berarti persyaratan awal lebih ramah pemula; peluang diterima tetap tidak diketahui. Jika buktinya minim, labelnya “Belum cukup data”.</p><p>Ulasan internet bersifat pengalaman individu. Posisi, negara, dan tahun pada sumber bisa berbeda. Periksa sumber lowongan untuk status pendaftaran.</p></div></details>
+      <form class="guide-filters" id="guide-filters" role="search" aria-label="Cari rekomendasi perusahaan"><label class="guide-query">Cari perusahaan<input id="guide-query" type="search" placeholder="Misalnya AWS, GoTo, Aluesa…"></label><label>Rekomendasi<select id="guide-tier"><option value="">Semua tier</option><option value="S">T0 — Prioritas tinggi</option><option value="A">T1 — Pilihan bagus</option><option value="B">T2 — Sesuai tujuan</option><option value="Belum dinilai">Belum dinilai</option></select></label><label>Perkiraan seleksi<select id="guide-difficulty"><option value="">Semua tingkat</option><option>Sulit</option><option>Sedang</option><option>Mudah (relatif)</option><option>Belum cukup data</option></select></label></form>
+      <p class="guide-results" id="guide-results" role="status" aria-live="polite">Memuat panduan perusahaan…</p>
+      <p class="tier-board-caption">Baris = prioritas rekomendasi · Kolom = perkiraan seleksi. <span>Geser tabel pada layar kecil →</span></p><div class="tier-board-scroll" role="region" aria-label="Tabel tier perusahaan, dapat digeser horizontal" tabindex="0"><div id="company-grid" class="tier-board" role="table" aria-label="Tier rekomendasi perusahaan dan kesulitan seleksi"></div></div><button class="guide-expand" id="guide-expand" type="button" hidden>Tampilkan semua perusahaan</button>
+      <p class="guide-note" id="guide-note">Penilaian kurasi diperbarui 23 Oktober 2026. Baca alasan dan tingkat keyakinan sebelum menggunakan tier.</p>
+    </section>
+
     <section class="jobs-section" id="lowongan" aria-labelledby="jobs-title">
       <div class="container">
         <div class="section-heading"><div><p class="eyebrow">TEMUKAN YANG COCOK</p><h2 id="jobs-title">Peluang untuk <span>langkah berikutnya.</span></h2></div><p class="section-aside">Jelajahi referensi, temukan yang sesuai dengan minatmu.</p></div>
@@ -67,6 +81,7 @@
           <div class="select-control"><label for="source">Sumber</label><select id="source" name="source"><option value="">Semua sumber</option></select></div>
           <button id="clear-filters" type="button" class="reset-button" title="Atur ulang pencarian dan filter">Reset</button>
         </form>
+        <div class="advice-filter-panel"><span>Strategi lamaran</span><label for="tier">Rekomendasi<select id="tier"><option value="">Semua tier</option><option value="S">T0 — Prioritas tinggi</option><option value="A">T1 — Pilihan bagus</option><option value="B">T2 — Sesuai tujuan</option><option value="Belum dinilai">Belum dinilai</option></select></label><label for="difficulty">Perkiraan seleksi<select id="difficulty"><option value="">Semua tingkat</option><option>Sulit</option><option>Sedang</option><option>Mudah (relatif)</option><option>Belum cukup data</option></select></label><a href="#rekomendasi">Lihat alasan tier ↗</a></div>
 
         <div class="results-toolbar">
           <div class="collection-tabs" role="group" aria-label="Koleksi lowongan">
@@ -93,6 +108,7 @@
   <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="./">loker<span class="brand-light">Intern</span>CS<span class="brand-dot">.</span></a><p>Langkah kecil hari ini. Cerita baru besok.</p><a href="#hero-title">Kembali ke atas ↑</a></div><div class="container design-credit">Inspirasi tampilan: <a href="https://www.behance.net/gallery/104398677/Aajob-Job-finding-landing-page/modules/599826963" target="_blank" rel="noopener noreferrer">Aajob di Behance</a></div></footer>
 
   <dialog id="job-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Tutup detail"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button><div id="dialog-content"></div></div></dialog>
+  <dialog id="company-dialog" aria-labelledby="company-dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Tutup panduan perusahaan">×</button><div id="company-dialog-content"></div></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript><div class="noscript-note">Aktifkan JavaScript untuk mencari dan melihat daftar lowongan. Data lengkap juga tersedia di <a href="./data/jobs.json">berkas lowongan</a>.</div></noscript>
 </body>

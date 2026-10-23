@@ -44,4 +44,13 @@ Pada **Settings → Pages → Build and deployment**, pilih **Deploy from a bran
 
 Tampilan memakai font sistem sebagai cadangan jika Google Fonts tidak dapat dimuat. Website tidak menyertakan analitik atau layanan backend.
 
+## Tier perusahaan, ulasan, dan tema
+
+- `data/companies.json` memetakan identitas perusahaan ke setiap `jobId`, menyimpan aset logo, alasan rekomendasi, perkiraan seleksi, tips, dan tautan sumber. Kanal informasi serta program yang bukan pemberi kerja tidak diperingkat sebagai perusahaan.
+- Matriks terinspirasi dari [Prydwen](https://www.prydwen.gg/zenless/tier-list). T0 (S) berarti prioritas tinggi untuk kecocokan CS; T1 (A) pilihan bagus; T2 (B) bergantung tujuan/posisi. Kolom menunjukkan perkiraan seleksi. Tier merupakan pendapat kurasi, bukan rating resmi atau ukuran peluang diterima.
+- Bedakan panduan resmi, pengalaman kandidat/pekerja, dan saran kurasi. Tulis keterbatasan jabatan, negara, tahun, dan sampel ulasan. Jangan mengisi ulasan atau persentase kelulusan jika bukti tidak ada. `sourceIds` pada tips merujuk ke `sources` profil yang sama.
+- Logo disimpan lokal di `assets/companies/`, dengan asal aset pada metadata profil. Ikon netral dipakai untuk identitas sumber yang belum terverifikasi. Jangan membuat logo merek palsu.
+- `company-guide.js` merender tier, profil, dan sumber; `theme.js` serta `themes.css` menyediakan tema terang/gelap. Pilihan disimpan dalam browser dan mengikuti preferensi sistem sampai pengunjung memilih sendiri.
+- Perubahan data dapat diperiksa lewat server lokal, kemudian commit dan push `main` untuk publikasi GitHub Pages.
+
 Ilustrasi hero bertema Dialyn dibuat melalui built-in ImageGen berdasarkan referensi pengguna. Aset terpilih: `assets/dialyn-hero-v2.webp`; prompt lengkap ada di `assets/dialyn-v2-prompt.md`. Arah visual situs terinspirasi dari [Aajob karya Akash Das](https://www.behance.net/gallery/104398677/Aajob-Job-finding-landing-page/modules/599826963).
