@@ -25,6 +25,15 @@ Buka `http://localhost:8080`. Gunakan server HTTP agar browser dapat mengambil `
 7. Periksa tautan `sourceUrl` dan `applyUrl`, lalu perbarui `updatedAt` setelah meninjau perubahan.
 8. Uji melalui server lokal, commit perubahan, dan push ke cabang `main`.
 
+### Batas kurasi IT dan unggahan gabungan
+
+- Publikasikan posisi yang ruang lingkup teknisnya terkonfirmasi: software, QA, data/AI, cloud, jaringan, sistem, keamanan, IT audit, atau embedded. Nama perusahaan teknologi maupun kata “data” saja tidak cukup untuk menjadikan posisi bisnis/administrasi sebagai lowongan IT.
+- `company` selalu berisi perusahaan pemberi kerja. Simpan akun Instagram atau kurator pada `sourcePublisher`, terpisah dari `sourceType` dan `sourceUrl`.
+- Urai carousel yang memuat beberapa perusahaan/posisi menjadi kartu sesuai perusahaan dan posisi IT yang terbaca. Satu `sourceUrl` boleh dipakai beberapa posisi yang berbeda; jangan menganggap URL unggahan sama sebagai duplikat pekerjaan.
+- Untuk posisi yang sama dari beberapa penerbit, pertahankan satu ID dan simpan bukti lain di `additionalSources`, berisi `sourceUrl`, `sourcePublisher`, `label`, serta `postedDate`/`sharedDate` jika diketahui. Detail dan kalender ikut menampilkan sumber pendamping.
+- Jangan menerbitkan kartu kurator atau perusahaan yang belum diketahui. Simpan data yang belum terurai dan posisi non-IT di luar folder publik untuk pemeriksaan berikutnya.
+- Filter `companies.json` dan pemetaan profil agar matriks hanya berisi perusahaan dengan posisi IT dalam daftar. Jangan mewariskan alasan tier khusus peran non-IT kepada peran IT yang berbeda.
+
 Jangan sertakan nama anggota, isi percakapan pribadi, tautan undangan grup, atau data pribadi dari WhatsApp. Publikasikan hanya informasi lowongan yang memang tersedia untuk umum. Jangan unggah berkas dengan nama yang mengandung kata terlarang dalam preferensi pengguna.
 
 ## GitHub Pages

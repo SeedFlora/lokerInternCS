@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-24",
-  "assessmentScope": "Penilaian kurasi kecocokan peluang yang tercantum bagi mahasiswa CS; bukan peringkat resmi perusahaan atau peluang penerimaan yang terukur.",
+  "assessmentScope": "Profil pemberi kerja pada daftar posisi IT: software, data/AI, cloud, sistem, jaringan, keamanan, dan bidang teknis terkait. Tier tetap merupakan pendapat kurasi.",
   "sourcePolicy": "Logo terutama berasal dari situs resmi; beberapa dari kanal rekrutmen atau profil perusahaan terverifikasi. URL dan batas verifikasi disimpan pada setiap identitas. Identitas yang belum jelas memakai ikon netral.",
   "companies": [
     {
@@ -353,8 +353,7 @@
         }
       ],
       "jobIds": [
-        "web-aluesa-junior-software-4466199230",
-        "arsip-048"
+        "web-aluesa-junior-software-4466199230"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -495,8 +494,8 @@
       "jobIds": [
         "web-tiket-ml-4472532709",
         "web-tiket-sdet-4412735989",
-        "arsip-032",
-        "archive-tiket-sdet-workday"
+        "archive-tiket-sdet-workday",
+        "arsip-tiket-business-intelligence-Des5unVoI-D"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -818,8 +817,7 @@
         }
       ],
       "jobIds": [
-        "arsip-002",
-        "arsip-005"
+        "arsip-002"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -886,33 +884,6 @@
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "bem-unsika",
-      "label": "BEM Fasilkom UNSIKA (kurator)",
-      "aliases": [
-        "BEM Fasilkom UNSIKA (kurator)"
-      ],
-      "kind": "curator",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Ikon resmi belum terverifikasi; ditampilkan dengan ikon netral sesuai jenis sumber.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-004"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "yanmar",
       "label": "YISS / Yanmar Group",
       "aliases": [
@@ -966,35 +937,8 @@
         }
       ],
       "jobIds": [
-        "arsip-006"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "techfusion",
-      "label": "TechFusion (kurator)",
-      "aliases": [
-        "TechFusion (kurator)"
-      ],
-      "kind": "curator",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Ikon resmi belum terverifikasi; ditampilkan dengan ikon netral sesuai jenis sumber.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-007",
-        "arsip-019"
+        "arsip-006",
+        "arsip-006-data-engineer-yiss-2027"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1013,7 +957,7 @@
       "notes": null,
       "sourcePage": "https://aws.amazon.com/",
       "recommendationTier": "A",
-      "recommendationReason": "Menarik untuk mahasiswa CS yang memilih infrastruktur, jaringan, dan operasi data center. Arsip DCO/DCEO merupakan trainee operasi; kecocokan untuk jalur pengembangan aplikasi lebih rendah.",
+      "recommendationReason": "Relevan untuk jalur infrastruktur, jaringan, dan operasi data center melalui DCO, serta pemahaman solusi cloud melalui Solutions Architect. Kedua jalur memiliki tugas dan syarat berbeda; tier ini bukan ukuran peluang lolos yang sama untuk semua posisi AWS.",
       "difficulty": "Sulit",
       "difficultyReason": "DCO meminta komunikasi Indonesia/Inggris, kelayakan kerja di Indonesia, komitmen penuh waktu, dan kesiapan shift/on-call. Hambatan praktis serta dasar infrastruktur perlu diperiksa; ini bukan asumsi tes software engineer Amazon.",
       "confidence": "Sedang",
@@ -1074,96 +1018,7 @@
       ],
       "jobIds": [
         "arsip-008",
-        "arsip-009",
-        "arsip-054",
-        "archive-aws-dceo"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "its-unidentified",
-      "label": "Perusahaan pada sumber ITS Career Center",
-      "aliases": [
-        "Perusahaan pada sumber ITS Career Center"
-      ],
-      "kind": "unknown",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Nama pemberi kerja belum terkonfirmasi. Domain email pada arsip dwp.co.id mengalami ketidakcocokan sertifikat saat pemeriksaan; ikon ITS tidak dipakai sebagai ikon pemberi kerja.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-010"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "lima-solae",
-      "label": "PT Lima Solae Group",
-      "aliases": [
-        "PT Lima Solae Group"
-      ],
-      "kind": "employer",
-      "domain": null,
-      "website": null,
-      "logo": "./assets/companies/lima-solae.png",
-      "sourceUrl": "https://ugc.production.linktr.ee/cd974b48-854b-444f-a4ef-8f0236b7356f_Linktree-5Solae.png",
-      "logoStatus": "verified",
-      "notes": "Logo Lima Solae Group dari avatar Linktree rekrutmen yang ditautkan langsung pada arsip lowongan; diperiksa visual.",
-      "sourcePage": "https://linktr.ee/internship5solae",
-      "recommendationTier": "B",
-      "recommendationReason": "Bisa menjadi pengalaman awal proyek dan operasi; jabatan pada arsip batch 2027 belum jelas sehingga kecocokan CS perlu dipastikan.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Belum ada ulasan seleksi yang cukup. Lowongan Business Administration lama menerima tanpa pengalaman, tetapi hal itu tidak menentukan kesulitan posisi IT atau batch berikutnya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Tips merupakan saran kurasi dari kebutuhan peran, bukan bocoran soal atau jaminan diterima. Tahapan dan penempatan perlu dikonfirmasi kepada perekrut.",
-      "tips": [
-        {
-          "title": "Cari peran dengan hasil terukur",
-          "detail": "Pilih divisi yang memberi proyek sistem, data, atau otomasi; jelaskan contoh proses yang bisa kamu perbaiki.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Pastikan batch dan tugas",
-          "detail": "Sumber perekrut lama membahas periode Juli 2026–Januari 2027. Jangan menganggap persyaratannya berlaku untuk seluruh 2027; periksa daftar posisi, durasi dan pembimbing terbaru.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "solae-recruiter"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "solae-recruiter",
-          "title": "Lima Solae — informasi perekrut untuk batch Juli 2026–Januari 2027",
-          "url": "https://www.linkedin.com/posts/isyaalmatyana-3564121b6_kami-dari-lima-solae-group-holding-company-activity-7453066531082764290-yghi",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "solae-old",
-          "title": "Lima Solae — Business Administration Internship (ditutup)",
-          "url": "https://glints.com/id/opportunities/jobs/business-administration-internship-internship-program/f2ada1d2-2ce9-4ebd-8dcf-2e08c7ed4753",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-011"
+        "arsip-054"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1182,7 +1037,7 @@
       "notes": null,
       "sourcePage": "https://apply.inlifesurabaya.com/",
       "recommendationTier": "B",
-      "recommendationReason": "Menarik untuk creative/digital dan pengalaman proyek; pastikan ada tugas sistem informasi nyata bila tujuanmu karier engineering.",
+      "recommendationReason": "Jalur Sistem Informasi dapat relevan untuk pengalaman proyek digital. Pastikan ruang lingkup teknis dan keluaran proyeknya sesuai tujuan karier engineering.",
       "difficulty": "Belum cukup data",
       "difficultyReason": "Portal program menyebut administrasi dan wawancara, tetapi standar penilaian, kuota, serta ulasan kandidat belum memadai.",
       "confidence": "Rendah",
@@ -1216,34 +1071,6 @@
       ],
       "jobIds": [
         "arsip-012"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "linktowork",
-      "label": "LinkToWork (kurator)",
-      "aliases": [
-        "LinkToWork (kurator)"
-      ],
-      "kind": "curator",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Ikon resmi belum terverifikasi; ditampilkan dengan ikon netral sesuai jenis sumber.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-013",
-        "arsip-035"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1294,34 +1121,6 @@
       ],
       "jobIds": [
         "arsip-014"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "asia-to-japan",
-      "label": "FAST OFFER / ASIA to JAPAN",
-      "aliases": [
-        "FAST OFFER / ASIA to JAPAN"
-      ],
-      "kind": "program",
-      "domain": "asiatojapan.com",
-      "website": "https://asiatojapan.com/",
-      "logo": "./assets/companies/asia-to-japan.png",
-      "sourceUrl": "https://asiatojapan.com/_wp/wp-content/uploads/atoj-fabicon-300x300.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://asiatojapan.com/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-015"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1389,8 +1188,8 @@
         }
       ],
       "jobIds": [
-        "arsip-016",
-        "web-linkedin-4465032713"
+        "web-linkedin-4465032713",
+        "arsip-016"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1510,34 +1309,6 @@
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "talent-growth",
-      "label": "Talent Growth (kurator)",
-      "aliases": [
-        "Talent Growth (kurator)"
-      ],
-      "kind": "curator",
-      "domain": "www.talentgrowth.id",
-      "website": "https://www.talentgrowth.id/",
-      "logo": "./assets/companies/talent-growth.png",
-      "sourceUrl": "https://www.talentgrowth.id/logo192.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.talentgrowth.id/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-020"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "pwc",
       "label": "PwC Indonesia",
       "aliases": [
@@ -1551,39 +1322,28 @@
       "logoStatus": "Ikon dari situs resmi",
       "notes": null,
       "sourcePage": "https://www.pwc.com/",
-      "recommendationTier": "B",
-      "recommendationReason": "Berguna bila ingin memadukan data, analisis, dan konsultansi. Entri arsip adalah CMAAS/akuntansi; untuk tujuan software engineering, kecocokan peran lebih rendah dan perlu mencari penempatan teknologi yang sesuai. IT Strategy Stream berfokus pada teknologi, data, dan integrasi; tier profil ini belum merupakan penilaian khusus terhadap peluang tersebut.",
-      "difficulty": "Sulit",
-      "difficultyReason": "Panduan PwC Indonesia mencantumkan persyaratan akademik, komunikasi, dan seleksi yang dapat melibatkan asesmen atau kasus sesuai layanan. CMAAS menuntut kecocokan pengetahuan akuntansi; brand perusahaan tidak otomatis membuat semua jurusan cocok. Syarat akuntansi CMAAS dan pengalaman divisi lain tidak boleh diterapkan otomatis pada seleksi IT Strategy Stream.",
-      "confidence": "Sedang",
-      "reviewSummary": "Intern Tax Indonesia menekankan wawancara Inggris dan pertanyaan spesifik bidang. Intern Deals & Strategy Operations menyorot studi kasus, berpikir logis, dan adaptasi pada proyek berjalan.",
-      "reviewCaveat": "Kedua cerita berasal dari divisi berbeda dengan CMAAS. Portal internship dan FAQ juga merinci variasi tahap; tanyakan alur yang berlaku untuk lowongan Anda.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "IT Strategy Stream mencakup kajian teknologi, kapabilitas data, integrasi sistem, dan roadmap IT. Bukti khusus pengalaman peserta serta pendampingan pada peran ini belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Uraian meminta dasar IT dan paparan strategi digital. Tahapan serta standar penilaian khusus IT Strategy Stream belum terverifikasi; pengalaman seleksi lini layanan lain tidak dijadikan ukuran untuk peran ini.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk IT Strategy Stream pada daftar ini.",
+      "reviewCaveat": "Persyaratan dan proses dapat berbeda antarjabatan. Pengalaman dari divisi lain tidak memastikan proses seleksi peran IT ini; konfirmasikan tahap yang berlaku pada posisi yang kamu lamar.",
       "tips": [
         {
-          "title": "Pilih lini layanan yang cocok",
-          "detail": "Periksa jurusan dan keluaran pekerjaan pada setiap lowongan. Untuk mahasiswa CS, bandingkan CMAAS dengan peluang teknologi/data; jangan menganggap internship umum selalu menerima semua jurusan.",
+          "title": "Tunjukkan kaitan bisnis dan IT",
+          "detail": "Siapkan contoh pemetaan proses, kebutuhan pengguna, arsitektur sistem atau integrasi, lalu jelaskan pilihan teknologi serta cara mengukur hasilnya.",
           "basis": "Saran kurasi",
           "sourceIds": [
-            "pwc-intern",
-            "pwc-faq"
+            "pwc-oct24-pwc-it-strategy-764264wd"
           ]
         },
         {
-          "title": "Latih kasus dan Inggris",
-          "detail": "Jelaskan masalah, asumsi, analisis, dan rekomendasi dengan ringkas. Pelajari konsep bidang posisi, sebab cerita intern Indonesia menekankan pertanyaan spesifik dan komunikasi Inggris.",
-          "basis": "Ulasan kandidat",
+          "title": "Periksa kelayakan peran",
+          "detail": "Baca kembali syarat pendidikan dan pengalaman proyek pada iklan. Siapkan penjelasan proyek teknologi, riset, serta dokumentasi yang benar-benar kamu kerjakan.",
+          "basis": "Saran kurasi",
           "sourceIds": [
-            "pwc-tax",
-            "pwc-deals"
-          ]
-        },
-        {
-          "title": "Pastikan jadwal kuliah",
-          "detail": "Sumber resmi meminta mahasiswa yang dapat mengikuti magang penuh waktu tanpa kelas yang bertabrakan; cek IPK serta durasi pada iklan dan konfirmasi tahap seleksi per layanan.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "pwc-intern",
-            "pwc-faq"
+            "pwc-oct24-pwc-it-strategy-764264wd"
           ]
         }
       ],
@@ -1605,22 +1365,6 @@
           "checkedAt": "2026-10-23"
         },
         {
-          "id": "pwc-tax",
-          "title": "Prosple — cerita langsung Hanna Christina, Tax Intern PwC Indonesia",
-          "url": "https://id.prosple.com/graduate-employers/pwc-indonesia/graduate-stories/hanna-christina",
-          "kind": "Ulasan kandidat",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "pwc-deals",
-          "title": "Prosple — cerita Madeleine Nathania, Deals & Strategy Operations Intern",
-          "url": "https://nz.prosple.com/graduate-employers/pwc-indonesia/graduate-stories/madeleine-nathania",
-          "kind": "Ulasan kandidat",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
           "id": "pwc-oct24-pwc-it-strategy-764264wd",
           "title": "PwC Indonesia — Internship - Digital, Cloud, Data - IT Strategy Stream",
           "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Jakarta/Internship---Digital--Cloud--Data---IT-Strategy-Stream_764264WD",
@@ -1630,10 +1374,9 @@
         }
       ],
       "jobIds": [
-        "arsip-021",
         "web-pwc-it-strategy-764264wd"
       ],
-      "reviewCheckedAt": "2026-10-23"
+      "reviewCheckedAt": "2026-10-24"
     },
     {
       "id": "coding-collective",
@@ -1683,7 +1426,8 @@
         }
       ],
       "jobIds": [
-        "arsip-022"
+        "arsip-022",
+        "arsip-022-quality-assurance-intern-ifi-batch-6"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1739,9 +1483,10 @@
     },
     {
       "id": "anabatic",
-      "label": "Anabatic Technologies / PT Karyaputra Suryagemilang",
+      "label": "PT Karyaputra Suryagemilang (Anabatic Holding)",
       "aliases": [
-        "Anabatic Technologies / PT Karyaputra Suryagemilang"
+        "Anabatic Technologies / PT Karyaputra Suryagemilang",
+        "PT Karyaputra Suryagemilang (Anabatic Holding)"
       ],
       "kind": "employer",
       "domain": "www.anabatic.com",
@@ -1804,65 +1549,8 @@
         }
       ],
       "jobIds": [
-        "arsip-024"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "ocbc",
-      "label": "OCBC Indonesia",
-      "aliases": [
-        "OCBC Indonesia"
-      ],
-      "kind": "employer",
-      "domain": "www.ocbc.id",
-      "website": "https://www.ocbc.id/",
-      "logo": "./assets/companies/ocbc.png",
-      "sourceUrl": "https://www.ocbc.id/asset/media/Project/OCBC/OCBCID/ICO/favicon.png?rev=8a9a44ad072d4803bc6f84020a64ac70",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.ocbc.id/id",
-      "recommendationTier": "B",
-      "recommendationReason": "Workplace Banking Support cocok untuk pengalaman operasi, komunikasi, dan spreadsheet; prioritas lebih rendah bila target utama software engineering.",
-      "difficulty": "Mudah (relatif)",
-      "difficultyReason": "Inferensi tentang tuntutan awal peran pada arsip: Excel, presentasi, ketelitian, dan komunikasi. Ini tidak membuktikan seleksi singkat, persaingan ringan, atau peluang diterima lebih besar.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Belum ada ulasan yang cocok untuk Workplace Banking Support Intern. Penilaian hanya pada hambatan keterampilan awal dalam arsip, bukan penilaian seluruh rekrutmen OCBC.",
-      "tips": [
-        {
-          "title": "Buat contoh laporan sederhana",
-          "detail": "Tunjukkan spreadsheet yang rapi dengan validasi data, PivotTable, serta slide ringkas untuk menjelaskan temuan kepada tim nonteknis.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Jelaskan alasan memilih operasi bank",
-          "detail": "Hubungkan pengalaman organisasi/proyek dengan ketelitian, layanan, dan koordinasi. Tanya apakah ada analisis atau otomasi, agar sesuai target CS.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        }
-      ],
-      "sources": [
-        {
-          "id": "ocbc-archive",
-          "title": "Arsip Workplace Banking Support Intern OCBC",
-          "url": "https://www.instagram.com/p/DegHL0cBafh/",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "ocbc-career",
-          "title": "OCBC Indonesia — situs resmi",
-          "url": "https://www.ocbc.id/",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-025"
+        "arsip-024",
+        "arsip-024-business-intelligence-internship"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -2037,85 +1725,8 @@
         }
       ],
       "jobIds": [
-        "arsip-028"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "dana",
-      "label": "DANA",
-      "aliases": [
-        "DANA"
-      ],
-      "kind": "employer",
-      "domain": "career.dana.id",
-      "website": "https://career.dana.id/",
-      "logo": "./assets/companies/dana.png",
-      "sourceUrl": "https://www.career.dana.id/favicon.ico",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.career.dana.id",
-      "recommendationTier": "A",
-      "recommendationReason": "Menarik untuk data engineering, kualitas data, atau produk fintech; kanal resmi menunjukkan peluang teknis dan cerita kontribusi intern. Entri talent pool sendiri belum merupakan tawaran magang dengan posisi tertentu.",
-      "difficulty": "Sedang",
-      "difficultyReason": "Sebagai pembanding konkret, Product Developer Intern meminta SQL praktis, Inggris, mahasiswa tahun ketiga/keempat, dan enam bulan di Jakarta. Kesulitan talent pool tidak dapat disamakan dengan lowongan engineering spesifik.",
-      "confidence": "Sedang",
-      "reviewSummary": "Cerita People Analytics Intern Indonesia menyebut pembahasan cara menganalisis, tools, komunikasi, dan wawancara Inggris. Kanal perusahaan juga menampilkan pengalaman intern data mengelola pipeline.",
-      "reviewCaveat": "Cerita People Analytics berasal dari fungsi berbeda dan lebih lama; cerita pada kanal resmi bersifat kurasi perusahaan. Keduanya bukan verifikasi independen pengalaman seluruh intern DANA.",
-      "tips": [
-        {
-          "title": "Pilih lowongan, bukan hanya pool",
-          "detail": "Gunakan kanal karier resmi untuk melihat posisi yang cocok dan persyaratannya. Talent pool berarti profil dapat dipertimbangkan saat ada kebutuhan, bukan jaminan panggilan.",
-          "basis": "Saran kurasi",
-          "sourceIds": [
-            "dana-hiring"
-          ]
-        },
-        {
-          "title": "Buktikan SQL praktis",
-          "detail": "Untuk Product Developer, bawa analisis funnel atau otomasi dengan query, metrik, dan rekomendasi; siapkan alasan prioritas fitur berdasarkan kebutuhan pengguna.",
-          "basis": "Saran kurasi",
-          "sourceIds": [
-            "dana-product"
-          ]
-        },
-        {
-          "title": "Latih cerita analisis dalam Inggris",
-          "detail": "Jelaskan sumber data, alat, kesimpulan, serta cara menyampaikan hasil ke tim. Laporan intern menekankan komunikasi dan menjelaskan proses analisis.",
-          "basis": "Ulasan kandidat",
-          "sourceIds": [
-            "dana-review"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "dana-hiring",
-          "title": "DANA Indonesia — kanal Career resmi",
-          "url": "https://linktr.ee/DANAHiring",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "dana-product",
-          "title": "DANA — Product Developer Intern, LinkedIn perusahaan",
-          "url": "https://id.linkedin.com/jobs/view/product-developer-intern-at-dana-indonesia-4470250890",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "dana-review",
-          "title": "Prosple — cerita Kamelia Ramandha, dari intern People Analytics DANA",
-          "url": "https://id.prosple.com/graduate-employers/dana-indonesia/graduate-stories/kamelia-ramandha",
-          "kind": "Ulasan kandidat",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-029"
+        "arsip-028",
+        "arsip-028-junior-electrical-embedded-engineer"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -2170,33 +1781,6 @@
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "asean-career",
-      "label": "ASEAN Career Fair with Japan",
-      "aliases": [
-        "ASEAN Career Fair with Japan"
-      ],
-      "kind": "program",
-      "domain": "asean-career.com",
-      "website": "https://asean-career.com/",
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Situs resmi teridentifikasi; ikon belum dapat diunduh atau diverifikasi.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-031"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "bosch",
       "label": "Bosch Indonesia",
       "aliases": [
@@ -2211,7 +1795,7 @@
       "notes": null,
       "sourcePage": "https://www.bosch.co.id/",
       "recommendationTier": "A",
-      "recommendationReason": "Program lokal menawarkan proyek, mentor, dan akses belajar yang terstruktur. Untuk mahasiswa CS, pilih penempatan data, sistem, atau digital yang sesuai; label program umum belum menjamin pekerjaan software.",
+      "recommendationReason": "IT Support dan IoT Engineer memberi jalur teknis yang berbeda: dukungan sistem serta pengembangan/integrasi perangkat dan data. Program menjelaskan proyek dan mentor; periksa tugas serta tim penempatan pada posisi yang dilamar.",
       "difficulty": "Sedang",
       "difficultyReason": "Bosch menyebut penyaringan administrasi dan wawancara. Hambatan jelas adalah tetap berstatus mahasiswa selama enam bulan, kesesuaian jurusan/tugas, serta Inggris; tingkat kesulitan teknis bergantung penempatan.",
       "confidence": "Sedang",
@@ -2287,7 +1871,6 @@
         }
       ],
       "jobIds": [
-        "arsip-033",
         "web-bosch-it-support-744000155433589",
         "web-bosch-iot-744000155438299"
       ],
@@ -2407,67 +1990,6 @@
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "seven-retail",
-      "label": "SEVEN Retail Group",
-      "aliases": [
-        "SEVEN Retail Group"
-      ],
-      "kind": "employer",
-      "domain": "seven-retail.com",
-      "website": "https://seven-retail.com/",
-      "logo": "./assets/companies/seven-retail.png",
-      "sourceUrl": "https://seven-retail.com/icon.png?3a9994d595aabb2b",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://seven-retail.com/",
-      "recommendationTier": "A",
-      "recommendationReason": "Growth Intern relevan untuk jalur product/business analytics: riset, data, eksperimen, dan evaluasi hasil. Kurang tepat bila hanya ingin coding mendalam.",
-      "difficulty": "Sedang",
-      "difficultyReason": "Inferensi dari tuntutan analisis, komunikasi, eksekusi, dan penerjemahan data ke rekomendasi. Belum ada ulasan seleksi Growth Intern yang cukup.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Tips merupakan saran kurasi dari kebutuhan peran, bukan bocoran soal atau jaminan diterima. Tahapan dan penempatan perlu dikonfirmasi kepada perekrut.",
-      "tips": [
-        {
-          "title": "Siapkan studi kasus growth",
-          "detail": "Analisis funnel contoh, tentukan metrik, ajukan satu eksperimen, dan jelaskan cara mengevaluasi hasil serta unit economics sederhana.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Cocokkan versi posisi",
-          "detail": "Portal memiliki beberapa deskripsi Growth Intern: ada fokus CRM/kampanye dan ada strategi/market sizing. Sesuaikan CV dengan iklan yang benar serta tanyakan pembagian kerja analisis dan lapangan.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "seven-growth",
-            "seven-growth-strategy"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "seven-growth",
-          "title": "Seven Retail — Growth Intern (CRM dan kampanye)",
-          "url": "https://seven-retail.breezy.hr/p/e9405f94bf72-growth-intern",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "seven-growth-strategy",
-          "title": "Seven Retail — Growth Intern (strategi dan unit economics)",
-          "url": "https://seven-retail.breezy.hr/p/7417f25c6569-growth-intern",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-037"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "elnusa-petrofin",
       "label": "Elnusa Petrofin",
       "aliases": [
@@ -2514,92 +2036,6 @@
       ],
       "jobIds": [
         "arsip-038"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "kcg",
-      "label": "KCG / Kurnia Ciptamoda Gemilang",
-      "aliases": [
-        "KCG / Kurnia Ciptamoda Gemilang"
-      ],
-      "kind": "employer",
-      "domain": "www.ptkcg.co.id",
-      "website": "https://www.ptkcg.co.id/",
-      "logo": "./assets/companies/kcg.png",
-      "sourceUrl": "https://ptkcg.co.id/wp-content/uploads/2025/07/icon.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://ptkcg.co.id/",
-      "recommendationTier": "B",
-      "recommendationReason": "Merchandise Analyst cocok untuk jalur business/data analytics ritel, terutama Excel serta keputusan stok; peran coding belum terbukti.",
-      "difficulty": "Sedang",
-      "difficultyReason": "Inferensi dari syarat IPK, ketelitian, Excel, dan pemahaman merchandising. Belum ada ulasan seleksi magang yang cukup spesifik.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Tips merupakan saran kurasi dari kebutuhan peran, bukan bocoran soal atau jaminan diterima. Tahapan dan penempatan perlu dikonfirmasi kepada perekrut.",
-      "tips": [
-        {
-          "title": "Latih studi kasus stok",
-          "detail": "Buat analisis penjualan per SKU, sell-through dan stok lambat dari data contoh; ubah hasilnya menjadi rekomendasi pembelian.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Tautkan angka dengan keputusan",
-          "detail": "Saat membahas dashboard, jelaskan pilihan metrik dan dampak bisnis. Pastikan format subjek dan alamat rekrutmen mengikuti posting yang masih aktif.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        }
-      ],
-      "sources": [
-        {
-          "id": "kcg-archive",
-          "title": "Arsip Merchandise Analyst Internship KCG",
-          "url": "https://www.instagram.com/p/DeFV_pOAQnr/",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "kcg-public",
-          "title": "Informasi publik Merchandise Analyst Intern KCG (kurator LinkedIn)",
-          "url": "https://www.linkedin.com/posts/magang-info_paid-internship-opportunity-at-pt-kcg-activity-7454348606456762368-6i6C",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-039"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "180dc-ub",
-      "label": "180 Degrees Consulting UB (kurator)",
-      "aliases": [
-        "180 Degrees Consulting UB (kurator)"
-      ],
-      "kind": "curator",
-      "domain": "180dc.org",
-      "website": "https://180dc.org/",
-      "logo": "./assets/companies/180dc-ub.png",
-      "sourceUrl": "https://cdn.prod.website-files.com/63b610d81215b25001c51b2b/6473fec088c6ee37eeb4bd99_180DC_Webclip.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": "Ikon organisasi induk 180 Degrees Consulting; sumber arsip berasal dari cabang Universitas Brawijaya.",
-      "sourcePage": "https://180dc.org/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-040"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -2662,480 +2098,6 @@
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "g-consulting",
-      "label": "G-Consulting (kurator)",
-      "aliases": [
-        "G-Consulting (kurator)"
-      ],
-      "kind": "curator",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Ikon resmi belum terverifikasi; ditampilkan dengan ikon netral sesuai jenis sumber.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-042"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "ybb",
-      "label": "Youth Break the Boundaries",
-      "aliases": [
-        "Youth Break the Boundaries"
-      ],
-      "kind": "employer",
-      "domain": "youthbreaktheboundaries.com",
-      "website": "https://youthbreaktheboundaries.com/",
-      "logo": "./assets/companies/ybb.png",
-      "sourceUrl": "https://youthbreaktheboundaries.com/wp-content/uploads/2024/11/cropped-YBB-Gram_1-180x180.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://youthbreaktheboundaries.com/",
-      "recommendationTier": "B",
-      "recommendationReason": "Bagus untuk koordinasi program, desain, dan komunikasi; prioritas lebih rendah untuk engineering karena peran pada arsip bersifat kreatif/operasional.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Jadwal wawancara tersedia, tetapi rubrik, kuota, dan ulasan kandidat magang yang memadai belum ditemukan.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Posting penyelenggara merupakan pengumuman program, bukan review independen. Informasi batch lama tidak menjamin ketentuan batch berikutnya.",
-      "tips": [
-        {
-          "title": "Bawa karya sesuai jabatan",
-          "detail": "Desain: jelaskan brief dan keputusan visual; pengelolaan program: tampilkan timeline, pembagian tugas, dan contoh penyelesaian masalah.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Perhatikan periode pendaftaran",
-          "detail": "Arsip Oktober menyebut pendaftaran 7–20 Oktober 2026 dan komitmen enam bulan. Tenggat sudah lewat; pantau batch berikutnya sebelum menyiapkan aplikasi.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "ybb-admin"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "ybb-admin",
-          "title": "YBB Administrator — pengumuman paid internship Oktober 2026",
-          "url": "https://id.linkedin.com/in/youth-break-the-boundaries-administrator",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "ybb-official",
-          "title": "YBB Foundation — posting program internship sebelumnya",
-          "url": "https://www.linkedin.com/posts/youth-break-the-boundaries-foundation_callforintern-youthbreaktheboundaries-activity-7476113997482721280-BSBP",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-043"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "sefas",
-      "label": "SEFAS Group",
-      "aliases": [
-        "SEFAS Group"
-      ],
-      "kind": "employer",
-      "domain": "sefasgroup.com",
-      "website": "https://sefasgroup.com/",
-      "logo": "./assets/companies/sefas.png",
-      "sourceUrl": "https://sefasgroup.com/public/favicon.ico",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://sefasgroup.com/",
-      "recommendationTier": "B",
-      "recommendationReason": "Technical Engineer pada program ini perlu diperiksa karena judulnya belum membuktikan pekerjaan software; kecocokan CS bergantung job description.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Portal resmi memastikan adanya Technical Engineer Intern, tetapi bukti asesmen dan ulasan kandidat untuk posisi ini belum cukup.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Tips merupakan saran kurasi. Jangan menyamakan Technical Engineer industri dengan Software Engineer tanpa membaca detail posisi.",
-      "tips": [
-        {
-          "title": "Periksa bidang engineering",
-          "detail": "Baca requirement pada detail resmi; pastikan jurusan dan tugasnya cocok dengan CS sebelum menyiapkan lamaran.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Tunjukkan diagnosis terstruktur",
-          "detail": "Bawa contoh troubleshooting yang benar-benar pernah dikerjakan: gejala, pengujian, penyebab, perbaikan, dan dokumentasi. Sesuaikan dengan tugas sebenarnya.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        }
-      ],
-      "sources": [
-        {
-          "id": "sefas-career",
-          "title": "SEFAS Group — daftar lowongan resmi",
-          "url": "https://career.sefasgroup.com/career/jobs",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-044"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "tokyo-government",
-      "label": "Tokyo Metropolitan Government",
-      "aliases": [
-        "Tokyo Metropolitan Government"
-      ],
-      "kind": "program",
-      "domain": "www.metro.tokyo.lg.jp",
-      "website": "https://www.metro.tokyo.lg.jp/",
-      "logo": "./assets/companies/tokyo-government.png",
-      "sourceUrl": "https://www.metro.tokyo.lg.jp/documents/158990/5052145/favicon/ab336d16-d30e-c4e6-9319-a4f2948f9e99",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.metro.tokyo.lg.jp/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-045"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "united-tractors",
-      "label": "United Tractors",
-      "aliases": [
-        "United Tractors"
-      ],
-      "kind": "employer",
-      "domain": "www.unitedtractors.com",
-      "website": "https://www.unitedtractors.com/",
-      "logo": "./assets/companies/united-tractors.png",
-      "sourceUrl": "https://www.unitedtractors.com/wp-content/uploads/2019/07/logo-UT-bulat-1-300x300.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.unitedtractors.com/",
-      "recommendationTier": "A",
-      "recommendationReason": "Menarik untuk sistem/data dan digitalisasi bila penempatan tepat. Program resmi menjelaskan proyek serta mentoring; isi kerja bergantung unit dan jalur.",
-      "difficulty": "Sedang",
-      "difficultyReason": "Dua pengalaman Internship di Glassdoor menilai wawancara rata-rata; laporan mahasiswa 2023 memuat berkas, psikotes, dan user interview. Sampel terbatas, bukan jaminan proses setiap jalur.",
-      "confidence": "Sedang",
-      "reviewSummary": "Pengalaman Internship Januari 2026 membahas user interview, latar belakang dan dasar teknis. Laporan Data Intern 2023 menggambarkan psikotes dan user interview serta penempatan di unit lain.",
-      "reviewCaveat": "Glassdoor hanya dua ulasan Internship; laporan mahasiswa berasal dari batch dan unit 2023. Jalur trainee, apprenticeship, dan internship dapat berbeda. Arsip di situs memiliki tenggat yang sudah lewat.",
-      "tips": [
-        {
-          "title": "Latih alasan dan cerita proyek",
-          "detail": "Siapkan perkenalan, alasan memilih posisi, kontribusi proyek, dan dasar teknis. Pengalaman Januari 2026 menyebut latar belakang, pengalaman, pertanyaan teknis, serta pemahaman perusahaan.",
-          "basis": "Ulasan kandidat",
-          "sourceIds": [
-            "ut-review"
-          ]
-        },
-        {
-          "title": "Pastikan unit dan porsi belajar",
-          "detail": "Satu laporan Data Intern 2023 berada di PT Global Service Indonesia di bawah UT. Tanyakan badan penempatan, mentor, dan apakah tersedia pelatihan atau belajar melalui penugasan.",
-          "basis": "Ulasan kandidat",
-          "sourceIds": [
-            "ut-report"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "ut-review",
-          "title": "Glassdoor — United Tractors Internship interview questions",
-          "url": "https://www.glassdoor.co.uk/Interview/United-Tractors-Internship-Interview-Questions-EI_IE626274.0%2C15_KO16%2C26.htm",
-          "kind": "Ulasan kandidat",
-          "date": "2026-01-04",
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "ut-report",
-          "title": "Laporan Data and Record Management Intern — Rieva Putri Safa (2023)",
-          "url": "https://kc.umn.ac.id/id/eprint/26853/2/BAB_I.pdf",
-          "kind": "Ulasan kandidat",
-          "date": "2023",
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "ut-campus",
-          "title": "ITB Career Center — program UT Intern dan SPEED",
-          "url": "https://karir.itb.ac.id/company/45253",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-046"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "dairyland",
-      "label": "Cimory Dairyland Farm Theme Park Prigen",
-      "aliases": [
-        "Cimory Dairyland Farm Theme Park Prigen"
-      ],
-      "kind": "employer",
-      "domain": "cimorydairyland.com",
-      "website": "https://cimorydairyland.com/",
-      "logo": "./assets/companies/dairyland.png",
-      "sourceUrl": "https://cimorydairyland.com/v2/favicon/apple-touch-icon.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://cimorydairyland.com/",
-      "recommendationTier": "B",
-      "recommendationReason": "Layak untuk pengalaman operasi/hospitality, tetapi peran CS atau proyek teknologi belum terlihat pada program umum yang diperiksa.",
-      "difficulty": "Mudah (relatif)",
-      "difficultyReason": "Inferensi dari penerimaan pelajar SMK/mahasiswa aktif serta fokus semangat belajar dan kerja tim pada posting perusahaan. Hambatan akademik lebih luas tidak berarti peluang diterima tinggi.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Belum menemukan ulasan seleksi yang cukup. Label mudah relatif hanya menggambarkan syarat awal program umum, bukan peluang diterima atau penilaian seluruh Cimory.",
-      "tips": [
-        {
-          "title": "Tunjukkan kesiapan kerja layanan",
-          "detail": "Siapkan contoh koordinasi kegiatan, ketelitian, disiplin dan menangani masalah pengguna/pengunjung dari pengalamanmu.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Pastikan hasil belajar CS",
-          "detail": "Tanyakan apakah ada penempatan IT/data, jadwal operasional, lokasi dan periode; pilih hanya jika tugas sesuai tujuan kuliah atau konversi SKS.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        }
-      ],
-      "sources": [
-        {
-          "id": "dairyland-program",
-          "title": "Cimory Dairyland Prigen — posting resmi program internship",
-          "url": "https://www.linkedin.com/company/cimory-prigen",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-047"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "schneider",
-      "label": "Schneider Electric",
-      "aliases": [
-        "Schneider Electric Indonesia",
-        "Schneider Electric"
-      ],
-      "kind": "employer",
-      "domain": "careers.se.com",
-      "website": "https://careers.se.com/",
-      "logo": "./assets/companies/schneider.png",
-      "sourceUrl": "https://cms.jibecdn.com/prod/se/assets/FAVICON-en-us-1602855801898.ico",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://careers.se.com/life-at-schneider",
-      "recommendationTier": "A",
-      "recommendationReason": "YES Academy menawarkan proyek bisnis, mentoring, dan pembelajaran tim di energi/otomasi. Cocok untuk CS yang tertarik data, sistem informasi, atau industri; penempatan software murni belum dipastikan.",
-      "difficulty": "Sedang",
-      "difficultyReason": "YES Academy resmi meminta mahasiswa akhir D4/S1 yang lulus setelah Juli 2027, IPK minimal 3,00, Inggris, dan aktivitas organisasi/kompetisi. Tahap atau tes khusus intake Indonesia belum dijabarkan.",
-      "confidence": "Sedang",
-      "reviewSummary": "Seorang software intern Amerika Serikat pada 2024 melaporkan praktik debugging serta pengalaman mengerjakan kode produksi. Ini menunjukkan kemungkinan nilai belajar teknis pada tim tertentu, bukan gambaran YES Academy Indonesia.",
-      "reviewCaveat": "Sumber review berasal dari software intern AS 2024; negara, unit, dan program berbeda. Informasi resmi intake Indonesia lebih diutamakan untuk kelayakan dan pendaftaran.",
-      "tips": [
-        {
-          "title": "Cek intake resmi",
-          "detail": "Halaman 137438 mencantumkan pendaftaran 12 Oktober–12 November 2026. Cocokkan tanggal lulus setelah Juli 2027, IPK, dan bidang studi sebelum melamar.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "schneider-yes"
-          ]
-        },
-        {
-          "title": "Hubungkan proyek dengan energi",
-          "detail": "Bawa contoh dashboard energi, otomasi proses, atau sistem monitoring. Jelaskan dampak yang ingin diukur dan alasan minat pada energi/otomasi.",
-          "basis": "Saran kurasi",
-          "sourceIds": [
-            "schneider-yes"
-          ]
-        },
-        {
-          "title": "Pastikan penempatan",
-          "detail": "Tanyakan unit, mentor, target proyek, dan keterampilan teknis yang dinilai. Review software AS bukan alasan mengasumsikan tes C# atau tugas coding pada YES Academy.",
-          "basis": "Saran kurasi",
-          "sourceIds": [
-            "schneider-yes",
-            "schneider-review"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "schneider-yes",
-          "title": "Schneider Electric — Young Energy Stars Academy Indonesia, 137438",
-          "url": "https://careers.se.com/jobs/137438?lang=en-US",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "schneider-review",
-          "title": "Indeed — pengalaman Software Engineer Intern Schneider Electric AS",
-          "url": "https://www.indeed.com/cmp/Schneider-Electric/reviews?fcountry=US&fjobtitle=Software+Engineer+Intern&ftext=Software",
-          "kind": "Ulasan kandidat",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-049",
-        "archive-schneider-134551"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "aiesec",
-      "label": "AIESEC",
-      "aliases": [
-        "AIESEC"
-      ],
-      "kind": "program",
-      "domain": "aiesec.org",
-      "website": "https://aiesec.org/",
-      "logo": "./assets/companies/aiesec.png",
-      "sourceUrl": "https://aiesec.org/favicon.ico",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://aiesec.org/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-050"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "kebun-academy",
-      "label": "Kebun Academy",
-      "aliases": [
-        "Kebun Academy"
-      ],
-      "kind": "program",
-      "domain": "academy.kebun.tech",
-      "website": "https://academy.kebun.tech/",
-      "logo": "./assets/companies/kebun-academy.png",
-      "sourceUrl": "https://academy.kebun.tech/_next/static/media/logo.d236f5b7.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": "Menggunakan logo header resmi Kebun Academy; favicon situs masih memakai ikon template.",
-      "sourcePage": "https://academy.kebun.tech/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-051"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
-      "id": "wings",
-      "label": "WINGS Group",
-      "aliases": [
-        "WINGS Group"
-      ],
-      "kind": "employer",
-      "domain": "wingscorp.com",
-      "website": "https://wingscorp.com/",
-      "logo": "./assets/companies/wings.png",
-      "sourceUrl": "https://wingscorp.com/favicon/apple-touch-icon.png",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://wingscorp.com/id",
-      "recommendationTier": "B",
-      "recommendationReason": "Program memberi paparan industri FMCG, tetapi daftar jabatan di arsip belum cukup untuk menilai kedalaman CS. Naikkan prioritas bila mendapat proyek IT/data yang jelas.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Uraian batch 2027 dan ulasan wawancara untuk posisi IT yang sama belum cukup; seleksi berbagai fungsi tidak dapat digabung menjadi satu tingkat kesulitan.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum menemukan ulasan seleksi magang yang cukup spesifik dan dapat diperiksa untuk perusahaan serta peran ini.",
-      "reviewCaveat": "Tips merupakan saran kurasi dari kebutuhan peran, bukan bocoran soal atau jaminan diterima. Tahapan dan penempatan perlu dikonfirmasi kepada perekrut.",
-      "tips": [
-        {
-          "title": "Pilih posisi sebelum melamar",
-          "detail": "Cocokkan jurusan dan proyek dengan fungsi; untuk data/IT siapkan contoh otomasi atau dashboard yang memperbaiki proses bisnis.",
-          "basis": "Saran kurasi",
-          "sourceIds": []
-        },
-        {
-          "title": "Konfirmasi penempatan dan durasi",
-          "detail": "Sumber perekrut untuk batch 2026 menyebut pekerjaan praktis dengan pembimbing. Pastikan divisi, mentor, lokasi, dan periode batch 2027.",
-          "basis": "Panduan resmi",
-          "sourceIds": [
-            "wings-recruiter"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "wings-archive",
-          "title": "Arsip WINGS Internship Program 2027",
-          "url": "https://www.instagram.com/p/DeeJ1E2E8fD/",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "wings-recruiter",
-          "title": "WINGS Talent Acquisition — Internship Program 2026 Batch 2 (arsip)",
-          "url": "https://www.linkedin.com/posts/christin-silviani-9b20ba1a1_hello-sobat-wings-do-you-ever-wonder-how-activity-7465589893843324928-u8hp",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-23"
-        }
-      ],
-      "jobIds": [
-        "arsip-052"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "blibli",
       "label": "Blibli",
       "aliases": [
@@ -3150,7 +2112,7 @@
       "notes": null,
       "sourcePage": "https://www.blibli.com/",
       "recommendationTier": "S",
-      "recommendationReason": "Prioritas untuk CS karena portal resmi menampilkan Developer Intern dengan pengembangan fitur, testing, debugging, dan code review bersama engineer. Jalur Product Management juga tersedia untuk minat analisis produk.",
+      "recommendationReason": "Prioritas untuk CS karena portal resmi menampilkan Developer Intern dengan pengembangan fitur, testing, debugging, dan code review bersama engineer. Konfirmasi lingkup proyek dan ketersediaan intake saat melamar.",
       "difficulty": "Sulit",
       "difficultyReason": "Developer intern perlu membuktikan kemampuan membangun dan menjelaskan software. Satu laporan intern Agustus 2026 menyebut coding assessment serta wawancara teknis/proyek; format terkini perlu dikonfirmasi.",
       "confidence": "Sedang",
@@ -3201,43 +2163,16 @@
         }
       ],
       "jobIds": [
-        "arsip-053",
         "web-blibli-developer-intern"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
     {
-      "id": "career-creator",
-      "label": "Kreator panduan karier (Instagram)",
-      "aliases": [
-        "Kreator panduan karier (Instagram)"
-      ],
-      "kind": "unknown",
-      "domain": null,
-      "website": null,
-      "logo": null,
-      "sourceUrl": null,
-      "logoStatus": "Identitas visual belum terverifikasi",
-      "notes": "Ikon resmi belum terverifikasi; ditampilkan dengan ikon netral sesuai jenis sumber.",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Identitas ini merupakan sumber informasi atau program. Belum ada dasar yang cukup untuk memberi rekomendasi perusahaan sebagai tempat magang.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Tahapan seleksi dan persyaratan peran belum cukup jelas untuk memperkirakan tingkat kesulitannya.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ditemukan ulasan seleksi yang cukup spesifik dan dapat diperiksa untuk peluang pada daftar ini.",
-      "reviewCaveat": "Tidak adanya ulasan bukan berarti mudah masuk. Pengalaman kandidat juga bisa berbeda menurut jabatan, lokasi, dan tahun.",
-      "tips": [],
-      "sources": [],
-      "jobIds": [
-        "arsip-055"
-      ],
-      "reviewCheckedAt": "2026-10-23"
-    },
-    {
       "id": "pmi",
-      "label": "Philip Morris International",
+      "label": "Philip Morris International / Sampoerna",
       "aliases": [
-        "Philip Morris International"
+        "Philip Morris International",
+        "Philip Morris International / Sampoerna"
       ],
       "kind": "employer",
       "domain": "join.pmicareers.com",
@@ -3247,51 +2182,45 @@
       "logoStatus": "Ikon dari situs resmi",
       "notes": null,
       "sourcePage": "https://join.pmicareers.com/gb/en/",
-      "recommendationTier": "B",
-      "recommendationReason": "Operations Documentation cocok untuk proses dan dokumentasi industri; kedalaman coding/data perlu dikonfirmasi agar sesuai target CS.",
-      "difficulty": "Sedang",
-      "difficultyReason": "Review kandidat PMI menggambarkan wawancara, pertanyaan proyek, dan asesmen, tetapi berasal dari peran/lokasi berbeda. Tingkat seleksi Operations Intern Pasuruan belum cukup diketahui.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Software Development pada tim IT Sampoerna mencakup coding, testing, debugging, dan fitur aplikasi. Relevan untuk CS; posisi resmi telah ditutup dan pengalaman peserta pada jabatan ini belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Sumber memuat dasar pemrograman web, IPK, bahasa Inggris, serta asesmen tatap muka di Surabaya. Bentuk asesmen dan tingkat persaingan belum diketahui; penilaian Operations Intern tidak dipakai untuk posisi software ini.",
       "confidence": "Rendah",
-      "reviewSummary": "Review Indonesia 2024–2025, terutama jalur graduate, menyebut pertanyaan pengalaman/proyek dan wawancara video. Review magang global juga bervariasi; tidak dipakai sebagai urutan pasti untuk Pasuruan.",
-      "reviewCaveat": "Ulasan anonim, jabatan dan waktu berbeda. Tidak menyatakan Operations Intern Pasuruan pasti memakai HireVue, FGD, atau rangkaian yang sama.",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman peserta yang cukup spesifik untuk Information Technology Intern — Software Development referensi 30506.",
+      "reviewCaveat": "Pengalaman wawancara program graduate atau divisi lain tidak memastikan urutan seleksi pada peran software ini. Portal resmi menyatakan posisi telah ditutup.",
       "tips": [
         {
-          "title": "Latih cerita proyek terstruktur",
-          "detail": "Jelaskan situasi, tanggung jawab, tindakan, hasil, dan apa yang kamu pelajari. Beberapa review Indonesia jalur graduate menyebut pertanyaan situasional serta video interview.",
-          "basis": "Ulasan kandidat",
-          "sourceIds": [
-            "pmi-id-review"
-          ]
-        },
-        {
-          "title": "Bawa contoh dokumentasi proses",
-          "detail": "Siapkan SOP atau panduan deployment akademik yang jelas, termasuk versi, penanggung jawab, pengecekan dan cara menangani perubahan. Pastikan tugas Operations Intern sesuai minatmu.",
+          "title": "Jelaskan fitur yang kamu bangun",
+          "detail": "Siapkan contoh aplikasi web dan terangkan kontribusi coding, pengujian, debugging, serta kerja tim. Sesuaikan dengan teknologi yang benar-benar kamu kuasai; cek intake berikutnya melalui kanal resmi.",
           "basis": "Saran kurasi",
-          "sourceIds": []
+          "sourceIds": [
+            "pmi-it-role"
+          ]
         }
       ],
       "sources": [
         {
-          "id": "pmi-id-review",
-          "title": "Glassdoor — pengalaman wawancara PMI Indonesia (beragam peran)",
-          "url": "https://www.glassdoor.co.uk/Interview/Philip-Morris-International-Indonesia-Interview-Questions-EI_IE7745.0%2C27_IL.28%2C37_IN113.htm",
-          "kind": "Ulasan kandidat",
-          "date": "2025-05-22",
-          "checkedAt": "2026-10-23"
-        },
-        {
-          "id": "pmi-job",
-          "title": "PMI — arsip Operations Intern Documentation Standard & Deployment",
-          "url": "https://join.pmicareers.com/gb/en/job/PMIPMIGB32168EXTERNALENGB/Operations-Intern-Documentation-Standard-Deployment",
+          "id": "pmi-it-role",
+          "title": "PMI — Information Technology Intern, Software Development 30506",
+          "url": "https://join.pmicareers.com/th/th/job/30506/Information-Technology-Intern-Software-Development",
           "kind": "Resmi",
           "date": null,
-          "checkedAt": "2026-10-23"
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "pmi-it-poster",
+          "title": "Intern Radar #1 — Information Technology Intern Sampoerna",
+          "url": "https://www.instagram.com/p/DeopLSwFD7d/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-18",
+          "checkedAt": "2026-10-24"
         }
       ],
       "jobIds": [
-        "archive-pmi-operations"
+        "arsip-techfusion1-pmi-software-development-30506"
       ],
-      "reviewCheckedAt": "2026-10-23"
+      "reviewCheckedAt": "2026-10-24"
     },
     {
       "id": "bca-digital",
@@ -3309,7 +2238,7 @@
       "notes": null,
       "sourcePage": "https://bcadigital.co.id/",
       "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Peluang Business Intelligence dan IT Quality Assurance berhubungan dengan CS. Bukti mengenai pengalaman magang dan proses rekrutmen belum cukup ditinjau untuk menetapkan tier perusahaan.",
+      "recommendationReason": "Business Intelligence, IT Quality Assurance, dan Product Owner berhubungan dengan pengembangan produk digital. Kesesuaian teknis berbeda tiap posisi; bukti pengalaman magang dan proses rekrutmen belum cukup ditinjau untuk menetapkan tier perusahaan.",
       "difficulty": "Belum cukup data",
       "difficultyReason": "Syarat teknis pada iklan mencakup analisis data atau QA, tetapi tahapan seleksi dan tingkat kompetisinya belum terverifikasi.",
       "confidence": "Rendah",
@@ -3336,7 +2265,8 @@
       ],
       "jobIds": [
         "web-linkedin-4480728101",
-        "web-linkedin-4458948926"
+        "web-linkedin-4458948926",
+        "arsip-techfusion2-bca-product-owner"
       ],
       "reviewCheckedAt": "2026-10-24"
     },
@@ -3394,9 +2324,9 @@
       "notes": null,
       "sourcePage": "https://mekari.com/",
       "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Product Security Engineer Intern relevan untuk minat keamanan aplikasi, API, dan pengujian kerentanan. Bukti pengalaman peserta serta pendampingan untuk peran ini belum cukup ditinjau untuk menetapkan tier.",
+      "recommendationReason": "Product Security Engineer relevan untuk keamanan aplikasi, sedangkan Product Management memberi paparan pengembangan dan analisis produk digital. Kesesuaian teknis bergantung posisi; pengalaman peserta serta pendampingan belum cukup ditinjau untuk menetapkan tier.",
       "difficulty": "Belum cukup data",
-      "difficultyReason": "Ruang lingkup keamanan aplikasi pada iklan tidak memastikan format atau kesulitan seleksi. Belum ada bukti tahap rekrutmen khusus peran ini.",
+      "difficultyReason": "Syarat keamanan aplikasi dan product management berbeda. Uraian tugas tidak memastikan format atau kesulitan seleksi; belum ada bukti tahap rekrutmen khusus kedua posisi ini yang cukup untuk perbandingan.",
       "confidence": "Rendah",
       "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
       "reviewCaveat": "Ketersediaan iklan dan persyaratan peran tidak membuktikan pengalaman magang atau peluang diterima. Periksa sumber lowongan untuk ketentuan terbaru.",
@@ -3412,7 +2342,8 @@
         }
       ],
       "jobIds": [
-        "web-linkedin-4475224663"
+        "web-linkedin-4475224663",
+        "arsip-mekari-product-management-DeHZxENj6EB"
       ],
       "reviewCheckedAt": "2026-10-24"
     },
@@ -3469,9 +2400,9 @@
       "notes": null,
       "sourcePage": "https://www.ciputralife.com/",
       "recommendationTier": "Belum dinilai",
-      "recommendationReason": "IT Admin Support dapat relevan untuk minat infrastruktur dan dukungan IT, sementara Claim Admin berfokus pada administrasi. Pengalaman peserta dan pendampingan belum cukup ditinjau untuk menetapkan tier perusahaan.",
+      "recommendationReason": "IT Admin Support relevan untuk minat infrastruktur, jaringan dasar, serta dukungan perangkat. Pengalaman peserta dan pendampingan belum cukup ditinjau untuk menetapkan tier perusahaan.",
       "difficulty": "Belum cukup data",
-      "difficultyReason": "Syarat tiap peran berbeda. Uraian IT Admin Support dan Claim Admin tidak memastikan format tes atau tingkat kompetisi seleksi.",
+      "difficultyReason": "Uraian IT Admin Support memuat keterampilan jaringan dan troubleshooting dasar, tetapi format tes serta tingkat kompetisi seleksi belum terverifikasi.",
       "confidence": "Rendah",
       "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
       "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
@@ -3479,7 +2410,7 @@
       "sources": [
         {
           "id": "ciputra-life-oct24-post",
-          "title": "Ciputra Life — Peluang Internship — IT Admin Support & Claim Admin",
+          "title": "Ciputra Life — IT Admin Support Internship",
           "url": "https://www.instagram.com/p/De0-L04CX40/",
           "kind": "Sumber lowongan",
           "date": null,
@@ -3496,88 +2427,6 @@
       ],
       "jobIds": [
         "arsip-ciputralife-De0-L04CX40"
-      ],
-      "reviewCheckedAt": "2026-10-24"
-    },
-    {
-      "id": "eskado",
-      "label": "Eskado Studio",
-      "aliases": [
-        "Eskado Studio"
-      ],
-      "kind": "employer",
-      "domain": "eskadostudio.com",
-      "website": "https://eskadostudio.com/",
-      "logo": "./assets/companies/eskado.png",
-      "sourceUrl": "https://i0.wp.com/eskadostudio.com/wp-content/uploads/2026/02/logo.jpg?fit=192%2C192&ssl=1",
-      "logoStatus": "Ikon dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://eskadostudio.com/",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Peluang 3D Artist sesuai untuk minat game art dan produksi aset, dengan kecocokan yang bergantung pada portofolio. Pengalaman peserta dan pendampingan belum cukup ditinjau untuk menetapkan tier.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Kualifikasi lengkap dan proses seleksi angkatan Oktober belum terkonfirmasi. Persyaratan pada halaman program umum tidak memastikan ketentuan angkatan ini.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
-      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
-      "tips": [],
-      "sources": [
-        {
-          "id": "eskado-oct24-post",
-          "title": "Eskado Studio — 3D Character, Props & Environment Artist Intern",
-          "url": "https://www.instagram.com/p/De0n1fPifHZ/",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-24"
-        },
-        {
-          "id": "eskado-official",
-          "title": "Eskado Studio — halaman program umum Game Art Internship 2026",
-          "url": "https://eskadostudio.com/2026/06/29/game-art-internship-2026/",
-          "kind": "Resmi",
-          "date": null,
-          "checkedAt": "2026-10-24"
-        }
-      ],
-      "jobIds": [
-        "arsip-eskado-De0n1fPifHZ"
-      ],
-      "reviewCheckedAt": "2026-10-24"
-    },
-    {
-      "id": "bmw-indonesia",
-      "label": "BMW Group Indonesia",
-      "aliases": [
-        "BMW Group Indonesia"
-      ],
-      "kind": "employer",
-      "domain": "www.bmw.co.id",
-      "website": "https://www.bmw.co.id/en/index.html",
-      "logo": "./assets/companies/bmw.svg",
-      "sourceUrl": "https://www.bmw.co.id/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.svg.asset.1756199978277.svg",
-      "logoStatus": "Logo dari situs resmi",
-      "notes": null,
-      "sourcePage": "https://www.bmw.co.id/en/index.html",
-      "recommendationTier": "Belum dinilai",
-      "recommendationReason": "Sales Intern berfokus pada penjualan otomotif. Hubungannya dengan target karier CS perlu dipertimbangkan dari tugas lengkap; bukti yang ditinjau belum cukup untuk menetapkan tier.",
-      "difficulty": "Belum cukup data",
-      "difficultyReason": "Caption belum merinci syarat pendidikan, tahapan seleksi, atau asesmen. Tingkat kompetisi dan peluang lolos tidak dapat dipastikan.",
-      "confidence": "Rendah",
-      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
-      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
-      "tips": [],
-      "sources": [
-        {
-          "id": "bmw-indonesia-oct24-post",
-          "title": "BMW Group Indonesia — Sales Intern",
-          "url": "https://www.instagram.com/p/De1ggBMlLnx/",
-          "kind": "Sumber lowongan",
-          "date": null,
-          "checkedAt": "2026-10-24"
-        }
-      ],
-      "jobIds": [
-        "arsip-bmw-De1ggBMlLnx"
       ],
       "reviewCheckedAt": "2026-10-24"
     },
@@ -3627,6 +2476,707 @@
         "arsip-cosmedia-De2jTNXk6kd"
       ],
       "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "crescentrating",
+      "label": "CrescentRating & HalalTrip",
+      "aliases": [
+        "CrescentRating & HalalTrip",
+        "CrescentRating",
+        "CrescentRating Pte Ltd"
+      ],
+      "domain": "crescentrating.com",
+      "website": "https://crescentrating.com/",
+      "logo": "./assets/companies/crescentrating.ico",
+      "sourceUrl": "https://crescentrating.com/favicon.ico",
+      "sourcePage": "https://crescentrating.com/",
+      "logoStatus": "Favicon dari situs resmi",
+      "notes": "HalalTrip tercantum sebagai bagian ekosistem CrescentRating pada situs resmi; nama gabungan mengikuti sumber posisi.",
+      "recommendationReason": "Product & AI Systems Intern mencakup pembangunan fitur, skema database, Supabase, dan pengujian sehingga relevan untuk CS. Bukti pendampingan, pengalaman peserta, dan proses seleksi belum cukup untuk menetapkan tier.",
+      "difficultyReason": "Uraian menuntut kemampuan mengarahkan alat coding AI, memahami database, dan memeriksa hasil kerja; format tes serta tingkat persaingan belum terverifikasi.",
+      "sources": [
+        {
+          "id": "crescent-role",
+          "title": "Talent Growth — Product & AI Systems Intern, CrescentRating & HalalTrip",
+          "url": "https://talentgrowth.id/job-categories",
+          "kind": "Platform lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "crescent-identity",
+          "title": "CrescentRating — situs resmi dan ekosistem HalalTrip",
+          "url": "https://crescentrating.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "kind": "employer",
+      "recommendationTier": "Belum dinilai",
+      "difficulty": "Belum cukup data",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran pada daftar ini.",
+      "reviewCaveat": "Syarat pekerjaan dan identitas perusahaan dapat diperiksa di sumber, tetapi itu belum cukup untuk menetapkan peluang penerimaan atau memastikan pengalaman peserta.",
+      "reviewCheckedAt": "2026-10-24",
+      "jobIds": [
+        "web-crescentrating-product-ai-systems-intern"
+      ],
+      "tips": [
+        {
+          "title": "Bawa fitur kecil yang benar-benar diuji",
+          "detail": "Tunjukkan aplikasi dengan tabel yang saling terhubung, validasi, serta pengujian. Jika memakai AI coding, jelaskan bagaimana kamu memeriksa kode dan memperbaiki kesalahannya.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "crescent-role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-treks",
+      "label": "Cat treks",
+      "aliases": [
+        "Cat treks",
+        "cat.treks",
+        "CatTreks"
+      ],
+      "domain": "cattreks.com",
+      "website": "https://cattreks.com/",
+      "logo": "./assets/companies/cat-treks.png",
+      "sourceUrl": "https://cattreks.com/__l5e/assets-v1/5d13288d-5d45-4c7f-bb66-d22c5c9a93d9/cat-treks-logo-cropped.png",
+      "sourcePage": "https://cattreks.com/",
+      "logoStatus": "Logo dari situs resmi",
+      "notes": "Situs cat.treks menautkan halaman careers grup Mission Possibly dengan filter brand cat-treks. Bukan perusahaan Community Action Treks pada domain catreks.com.",
+      "recommendationReason": "Full Stack Developer relevan untuk pengembangan aplikasi. Jenis kontrak, detail teknologi, pendampingan, dan pengalaman peserta pada posisi ini belum cukup terkonfirmasi untuk menetapkan tier.",
+      "difficultyReason": "Daftar Talent Growth menyebut full-stack, tetapi uraian teknis dan tahapan seleksi rinci belum terkonfirmasi. Lokasi hybrid Singapura tidak otomatis berarti pelamar Indonesia memenuhi syarat.",
+      "sources": [
+        {
+          "id": "cat-role",
+          "title": "Talent Growth — Cat treks Full Stack Developer",
+          "url": "https://www.instagram.com/p/Del8AvnGJG5/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-17",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "cat-identity",
+          "title": "Cat treks — situs resmi",
+          "url": "https://cattreks.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "cat-careers",
+          "title": "Mission Possibly — careers Cat treks",
+          "url": "https://missionpossibly.com/careers?brand=cat-treks",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "kind": "employer",
+      "recommendationTier": "Belum dinilai",
+      "difficulty": "Belum cukup data",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran pada daftar ini.",
+      "reviewCaveat": "Full Stack Developer dibaca pada unggahan kurator. Peran ini belum ditemukan pada daftar karier resmi saat diperiksa; jenis kontrak, status penerimaan, serta kelayakan pelamar Indonesia perlu dikonfirmasi.",
+      "reviewCheckedAt": "2026-10-24",
+      "jobIds": [
+        "web-cat-treks-full-stack-developer-intern"
+      ],
+      "tips": [
+        {
+          "title": "Konfirmasi kontrak dan kelayakan lokasi",
+          "detail": "Cocokkan unggahan Full Stack Developer dengan kanal rekrutmen perusahaan. Tanyakan stack, jenis kontrak, kebutuhan hadir di Singapura, izin kerja, dan status penerimaan sebelum membuat komitmen.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "cat-role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-rudder",
+      "label": "AI Rudder",
+      "aliases": [
+        "AI Rudder",
+        "AIRudder"
+      ],
+      "domain": "airudder.com",
+      "website": "https://airudder.com/",
+      "logo": "./assets/companies/ai-rudder.png",
+      "sourceUrl": "https://pointzeroforum.com/hubfs/sff-phase-1-migration-images/AI%20RUDDER%20PTE%20LTD-4M37-Publicity%20Form%2001%20-%20Company%20Profile%20Form%20%5BCompany%20Logo%5D-1.png",
+      "sourcePage": "https://www.fintechfestival.sg/2025-exhibitors/ai-rudder",
+      "logoStatus": "Logo profil perusahaan pada Singapore FinTech Festival",
+      "notes": "Identitas cocok dengan perusahaan AI voice automation pada airudder.com. Logo bersumber dari profil exhibitor resmi Singapore FinTech Festival.",
+      "recommendationReason": "Peran Product Architecture pada ASR dan Speech AI memakai Python, dataset suara, evaluasi model, serta eksperimen ML. Relevansinya untuk CS jelas, tetapi pengalaman magang dan proses seleksi belum cukup ditinjau untuk menetapkan tier.",
+      "difficultyReason": "Dasar machine learning, Python, dan analisis WER/CER dapat menjadi tuntutan teknis; tahap tes, penilaian, dan tingkat kompetisi tidak diketahui.",
+      "sources": [
+        {
+          "id": "air-role",
+          "title": "AI Rudder — Product Architecture Intern A134893",
+          "url": "https://id.linkedin.com/jobs/view/product-architecture-intern-a134893-at-ai-rudder-4477158227",
+          "kind": "Lowongan perusahaan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "air-identity",
+          "title": "AI Rudder — situs resmi",
+          "url": "https://airudder.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "air-logo",
+          "title": "Singapore FinTech Festival — AI Rudder exhibitor profile",
+          "url": "https://www.fintechfestival.sg/2025-exhibitors/ai-rudder",
+          "kind": "Profil perusahaan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "kind": "employer",
+      "recommendationTier": "Belum dinilai",
+      "difficulty": "Belum cukup data",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran pada daftar ini.",
+      "reviewCaveat": "Syarat pekerjaan dan identitas perusahaan dapat diperiksa di sumber, tetapi itu belum cukup untuk menetapkan peluang penerimaan atau memastikan pengalaman peserta.",
+      "reviewCheckedAt": "2026-10-24",
+      "jobIds": [
+        "arsip-techfusion2-ai-rudder-product-architecture"
+      ],
+      "tips": [
+        {
+          "title": "Siapkan evaluasi eksperimen suara",
+          "detail": "Bawa proyek Python atau ML dengan data yang tertata, metrik evaluasi, dan analisis error. Jika pernah mengerjakan ASR, jelaskan WER/CER serta cara membandingkan hasil eksperimen.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "air-role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dnet",
+      "label": "PT Dutakom Wibawa Putra (D~NET)",
+      "aliases": [
+        "PT Dutakom Wibawa Putra",
+        "PT Dutakom Wibawa Putra (D~NET)",
+        "D~NET",
+        "D-NET",
+        "DNET",
+        "PT Dutakom Wibawa Putra (D-NET)"
+      ],
+      "domain": "dnetprovider.id",
+      "website": "https://dnetprovider.id/",
+      "logo": "./assets/companies/dnet.png",
+      "sourceUrl": "https://dnetprovider.id/images/logo-3bfa746e.png",
+      "sourcePage": "https://dnetprovider.id/id/",
+      "logoStatus": "Logo dari situs resmi",
+      "notes": "Nama employer dikonfirmasi dari poster; situs resmi dan kontak DWP Group juga mengidentifikasi D~NET sebagai PT Dutakom Wibawa Putra.",
+      "recommendationReason": "Pilihan magang mencakup pengembangan backend/frontend, analisis sistem, infrastruktur IT, dan dukungan data center. Bukti mengenai pengalaman peserta dan proses seleksi belum cukup untuk menetapkan tier.",
+      "difficultyReason": "Syarat umum program tidak menjelaskan tes atau stack tiap jabatan. Kesiapan enam bulan on-site dan surat kampus perlu diperhatikan, sedangkan tingkat seleksi belum diketahui.",
+      "sources": [
+        {
+          "id": "dnet-poster",
+          "title": "ITS Career Center — internship PT Dutakom Wibawa Putra",
+          "url": "https://www.instagram.com/p/Des6EScD-Z-/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-20",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "dnet-identity",
+          "title": "D~NET — kontak perusahaan resmi DWP Group",
+          "url": "https://dwpgroup.odoo.com/dnet-contact-us",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "dnet-site",
+          "title": "D~NET — situs resmi",
+          "url": "https://dnetprovider.id/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "kind": "employer",
+      "recommendationTier": "Belum dinilai",
+      "difficulty": "Belum cukup data",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran pada daftar ini.",
+      "reviewCaveat": "Syarat pekerjaan dan identitas perusahaan dapat diperiksa di sumber, tetapi itu belum cukup untuk menetapkan peluang penerimaan atau memastikan pengalaman peserta.",
+      "reviewCheckedAt": "2026-10-24",
+      "jobIds": [
+        "arsip-010",
+        "arsip-010-frontend",
+        "arsip-010-system-analyst",
+        "arsip-010-it-infrastructure",
+        "arsip-010-datacenter-support"
+      ],
+      "tips": [
+        {
+          "title": "Sesuaikan portofolio dengan jabatan",
+          "detail": "Untuk backend/frontend, tunjukkan aplikasi dan dokumentasi; untuk infra atau data center, tunjukkan lab jaringan dan troubleshooting. Siapkan surat kampus serta ketersediaan enam bulan on-site sesuai poster.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "dnet-poster"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deloitte",
+      "label": "Deloitte",
+      "aliases": [
+        "Deloitte",
+        "Deloitte Indonesia"
+      ],
+      "kind": "employer",
+      "domain": "deloitte.com",
+      "website": "https://www.deloitte.com/southeast-asia/en/about/indonesia.html",
+      "logo": "./assets/companies/deloitte.png",
+      "sourceUrl": "https://www.deloitte.com/content/dam/assets-shared/logos/png/a-d/deloitte-print.png",
+      "sourcePage": "https://www.deloitte.com/southeast-asia/en/about/indonesia.html",
+      "logoStatus": "Logo dari situs resmi",
+      "notes": "Brand Deloitte Indonesia mencakup beberapa badan hukum anggota jaringan; badan pemberi kerja spesifik harus mengikuti lowongan, tidak disimpulkan dari logo. Logo versi print ditautkan oleh halaman resmi.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "IT Audit mencakup ITGC, assurance, assessment, dan evaluasi pengendalian. Relevan untuk jalur IT risk dan audit; bukti pengalaman magang serta pendampingan untuk posisi ini belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Persyaratan COSO, ICFR, ITGC, IPK, dan bahasa Inggris memberi gambaran kompetensi. Bentuk tes serta tingkat persaingan pada jabatan ini belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Siapkan contoh pengendalian IT",
+          "detail": "Latih penjelasan kontrol akses, perubahan aplikasi, dan operasi sistem. Hubungkan contoh tersebut dengan risiko, bukti pengujian, serta dasar ITGC yang diminta sumber.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "deloitte-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "deloitte-it-role",
+          "title": "Deloitte — Internal Audit Intern — cakupan IT Audit",
+          "url": "https://www.instagram.com/p/Des5unVoI-D/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-19",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "deloitte-identity",
+          "title": "Deloitte — identitas perusahaan dan sumber logo",
+          "url": "https://www.deloitte.com/southeast-asia/en/about/indonesia.html",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-deloitte-internal-audit-Des5unVoI-D"
+      ]
+    },
+    {
+      "id": "herdento",
+      "label": "PT Herdento Global Solusi",
+      "aliases": [
+        "PT Herdento Global Solusi",
+        "Herdento Global Solutions",
+        "Herdento Global Solusi"
+      ],
+      "kind": "employer",
+      "domain": "herdento.com",
+      "website": "https://herdento.com/",
+      "logo": "./assets/companies/herdento.png",
+      "sourceUrl": "https://herdento.com/wp-content/uploads/2026/03/hgs-icon.png",
+      "sourcePage": "https://herdento.com/",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": "Situs resmi menampilkan nama PT Herdento Global Solusi; ikon asli situs digunakan tanpa menggambar ulang identitas.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Fullstack Website Developer memuat frontend, backend, database, dashboard, dan pemetaan web. Relevan untuk portofolio engineering; kualitas pendampingan dan status kontrak magang perlu dikonfirmasi.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "JavaScript/React, Node.js/Python, SQL, serta nilai tambah GIS menjadi tuntutan teknis. Tahap seleksi dan proporsi pelamar yang diterima belum diketahui.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Tampilkan aplikasi web lengkap",
+          "detail": "Bawa demo kecil frontend, API, dan database dengan petunjuk menjalankan proyek. Jika memiliki pengalaman peta, jelaskan bagaimana GeoJSON atau Leaflet/Mapbox digunakan.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "herdento-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "herdento-it-role",
+          "title": "PT Herdento Global Solusi — Fullstack Website Developer",
+          "url": "https://www.instagram.com/p/Des5unVoI-D/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-19",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "herdento-identity",
+          "title": "PT Herdento Global Solusi — identitas perusahaan dan sumber logo",
+          "url": "https://herdento.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-hgs-fullstack-Des5unVoI-D"
+      ]
+    },
+    {
+      "id": "ravant",
+      "label": "PT Ravant Creative Studios",
+      "aliases": [
+        "PT Ravant Creative Studios",
+        "Ravant Creative Studios",
+        "Ravant Studios"
+      ],
+      "kind": "employer",
+      "domain": null,
+      "website": null,
+      "logo": "./assets/companies/ravant.png",
+      "sourceUrl": "https://image-service-cdn.seek.com.au/ec27388e26d465270abe8f0b541c650258376757/f3c5292cec0e05e4272d9bf9146f390d366481d0",
+      "sourcePage": "https://id.jobstreet.com/PT-Ravant-Creative-Studios-jobs",
+      "logoStatus": "Logo employer pada profil Jobstreet, identitas sesuai nama legal",
+      "notes": "Logo Ravant studios dipublikasikan pada profil employer PT Ravant Creative Studios di Jobstreet, termasuk daftar IT Intern. Domain resmi belum terverifikasi; tidak memakai identitas perusahaan lain yang namanya mirip.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "IT Support mencakup perangkat, jaringan, cloud administrasi, backup, dan keamanan dasar. Relevan untuk infrastruktur IT; poster Full Time belum memastikan skema magang atau pendampingan.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Sumber mencantumkan pengalaman sekaligus membuka lulusan baru dengan portofolio. Format seleksi, penilaian praktis, dan tingkat persaingan belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Jelaskan langkah troubleshooting",
+          "detail": "Siapkan contoh diagnosis DNS/DHCP, akses perangkat, pencadangan, dan pemulihan. Jelaskan urutan pemeriksaan serta dokumentasi penanganan masalah, sesuai kemampuan yang benar-benar kamu miliki.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "ravant-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "ravant-it-role",
+          "title": "PT Ravant Creative Studios — IT Support",
+          "url": "https://www.instagram.com/p/Des5unVoI-D/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-19",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "ravant-identity",
+          "title": "PT Ravant Creative Studios — identitas perusahaan dan sumber logo",
+          "url": "https://id.jobstreet.com/PT-Ravant-Creative-Studios-jobs",
+          "kind": "Platform lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-ravant-it-support-Des5unVoI-D"
+      ]
+    },
+    {
+      "id": "taharica",
+      "label": "PT Taharica",
+      "aliases": [
+        "PT Taharica",
+        "Taharica",
+        "Taharica Group"
+      ],
+      "kind": "employer",
+      "domain": "taharicaindonesia.com",
+      "website": "https://taharicaindonesia.com/",
+      "logo": null,
+      "sourceUrl": null,
+      "sourcePage": "https://taharicaindonesia.com/",
+      "logoStatus": "Logo belum terverifikasi; gunakan inisial",
+      "notes": "Situs resmi mengidentifikasi PT Taharica sebagai Taharica Group, beralamat di Radin Inten II No. 62 Jakarta Timur.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Data Analyst menekankan SQL dan spreadsheet dengan BI, Python, database, dan ERPNext sebagai nilai tambah. Relevan untuk analitik; halaman Glints terkait telah ditutup dan publikasi ulang belum membuktikan intake baru.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Dasar SQL, analisis data, dan kebutuhan mulai cepat tercantum pada poster. Tahap seleksi dan tingkat kompetisi belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Tunjukkan analisis yang dapat direproduksi",
+          "detail": "Siapkan contoh SQL, pembersihan data, dan ringkasan temuan dengan spreadsheet atau BI. Jelaskan sumber data, validasi hasil, serta keputusan yang bisa dibantu oleh analisis tersebut.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "taharica-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taharica-it-role",
+          "title": "PT Taharica — Data Analyst",
+          "url": "https://www.instagram.com/p/Des5unVoI-D/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-19",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "taharica-identity",
+          "title": "PT Taharica — identitas perusahaan dan sumber logo",
+          "url": "https://taharicaindonesia.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-taharica-data-analyst-Des5unVoI-D"
+      ]
+    },
+    {
+      "id": "bosnet",
+      "label": "Bosnet Distribution Indonesia",
+      "aliases": [
+        "Bosnet Distribution Indonesia",
+        "PT Bosnet Distribution Indonesia",
+        "BOSNET"
+      ],
+      "kind": "employer",
+      "domain": "bosnetdis.com",
+      "website": "https://www.bosnetdis.com/",
+      "logo": "./assets/companies/bosnet.webp",
+      "sourceUrl": "https://cms.bosnetdis.com/uploads/logo_bosnet_with_text_black_f208658c22.webp",
+      "sourcePage": "https://www.bosnetdis.com/",
+      "logoStatus": "Logo dari situs resmi",
+      "notes": "Identitas PT Bosnet Distribution Indonesia juga tercantum pada footer hub.bosnetdis.com.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "IT Project Manager Intern memberi paparan SDLC, koordinasi, dan dokumentasi proyek teknologi. Cocok untuk minat pengelolaan proyek IT; bukti pendampingan dan pengalaman peserta belum cukup untuk tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Sumber meminta lulusan baru bidang teknologi tanpa kelas aktif, pemahaman SDLC, dan kemampuan komunikasi. Tes serta tingkat persaingan belum diketahui.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Bawa contoh rencana proyek IT",
+          "detail": "Siapkan scope, milestone, pembagian tugas, daftar risiko, serta cara melacak progres proyek kuliah. Jelaskan hubungan pekerjaan tersebut dengan tahapan SDLC.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "bosnet-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "bosnet-it-role",
+          "title": "Bosnet Distribution Indonesia — IT Project Manager Intern",
+          "url": "https://www.instagram.com/p/DerGiC9IOhd/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-19",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "bosnet-identity",
+          "title": "Bosnet Distribution Indonesia — identitas perusahaan dan sumber logo",
+          "url": "https://www.bosnetdis.com/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-bosnet-it-project-manager-DerGiC9IOhd"
+      ]
+    },
+    {
+      "id": "hsbc",
+      "label": "HSBC",
+      "aliases": [
+        "HSBC",
+        "HSBC Indonesia",
+        "PT Bank HSBC Indonesia"
+      ],
+      "kind": "employer",
+      "domain": "about.hsbc.co.id",
+      "website": "https://www.about.hsbc.co.id/careers",
+      "logo": "./assets/companies/hsbc.png",
+      "sourceUrl": "https://www.about.hsbc.co.id/assets/pws171/images/touchicon/HSBC_touch-icon.png",
+      "sourcePage": "https://www.about.hsbc.co.id/careers",
+      "logoStatus": "Ikon/logo dari situs resmi",
+      "notes": "Situs HSBC Indonesia mengidentifikasi PT Bank HSBC Indonesia. Peran Operations dan IT harus dibedakan; logo tidak mengubah ruang lingkup jabatan.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Operations & IT memberi ruang otomasi dan analisis dengan VBA, SQL, dan Python. Pastikan penempatan IT serta keluaran teknisnya; bukti pengalaman magang pada jalur ini belum cukup untuk tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Syarat WNI, pendidikan, IPK, bahasa Inggris, dan dasar otomasi tercantum. Tahap serta standar penilaian khusus program ini belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Tunjukkan contoh otomasi yang terukur",
+          "detail": "Siapkan proyek SQL, Python atau VBA untuk mengurangi pekerjaan berulang. Jelaskan validasi data, penanganan error, dan perbandingan hasil sebelum serta sesudah otomasi.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "hsbc-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "hsbc-it-role",
+          "title": "HSBC — Operations & IT Internship",
+          "url": "https://www.instagram.com/p/Dd83nz-k2pD/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-01",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "hsbc-identity",
+          "title": "HSBC — identitas perusahaan dan sumber logo",
+          "url": "https://www.about.hsbc.co.id/careers",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-hsbc-operations-it-Dd83nz-k2pD"
+      ]
+    },
+    {
+      "id": "shiseido",
+      "label": "Shiseido Asia Pacific",
+      "aliases": [
+        "Shiseido Asia Pacific",
+        "Shiseido",
+        "Shiseido NEXT"
+      ],
+      "kind": "employer",
+      "domain": "corp.shiseido.com",
+      "website": "https://corp.shiseido.com/en/",
+      "logo": "./assets/companies/shiseido.png",
+      "sourceUrl": "https://corp.shiseido.com/en/v3/cmn/img/logo150_pc.png",
+      "sourcePage": "https://corp.shiseido.com/en/",
+      "logoStatus": "Ikon/logo dari situs resmi",
+      "notes": "Logo berasal dari situs korporat Shiseido; entitas pemberi kerja lokal dan persyaratan program mengikuti sumber lowongan. Aset logo korporat yang ditampilkan situs resmi adalah versi150tahun; tidak diubah atau direka ulang.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Jalur IT pada NEXT tercantum di poster, tetapi tugas teknis dan penempatan perlu ditelaah per posisi. Bukti khusus pengalaman peserta dan pendampingan belum cukup untuk tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Poster belum memuat kualifikasi atau tahap seleksi khusus jalur IT. Tanggal Januari–Juni 2027 merupakan pelaksanaan program, bukan jendela pendaftaran.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Pastikan jabatan dan lokasi IT",
+          "detail": "Cari uraian resmi posisi IT yang cocok sebelum melamar; periksa lokasi, izin kerja, kalender kuliah, dan tanggal apply. Sesuaikan proyek teknologi yang ditampilkan dengan tugas posisi tersebut.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "shiseido-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "shiseido-it-role",
+          "title": "Shiseido Asia Pacific — Jalur IT — Shiseido NEXT Internship Program",
+          "url": "https://www.instagram.com/p/DeHZxENj6EB/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-05",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "shiseido-identity",
+          "title": "Shiseido Asia Pacific — identitas perusahaan dan sumber logo",
+          "url": "https://corp.shiseido.com/en/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-shiseido-it-next-DeHZxENj6EB"
+      ]
+    },
+    {
+      "id": "kimia-farma-kfa",
+      "label": "Kimia Farma Apotek (KFA)",
+      "aliases": [
+        "Kimia Farma Apotek (KFA)",
+        "PT Kimia Farma Apotek",
+        "KFA"
+      ],
+      "kind": "employer",
+      "domain": "kimiafarmaapotek.co.id",
+      "website": "https://www.kimiafarmaapotek.co.id/id/",
+      "logo": "./assets/companies/kimia-farma-kfa.jpg",
+      "sourceUrl": "https://www.kimiafarmaapotek.co.id/wp-content/uploads/2023/11/cropped-LOGOKFAMemberBiofarma-300x300-bg-putih-192x192.jpg",
+      "sourcePage": "https://www.kimiafarmaapotek.co.id/id/",
+      "logoStatus": "Ikon/logo dari situs resmi",
+      "notes": "PT Kimia Farma Apotek berbeda dari induk PT Kimia Farma Tbk; hubungan anak perusahaan dan domain apotek dikonfirmasi pada situs induk https://www.kimiafarma.co.id/id/kimia-farma-apotek. Ikon adalah favicon yang masih dipakai situs resmi apotek saat ditinjau.",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Meskipun berjudul Data Scientist Engineer, uraian posisi terutama backend, SQL, REST API, dan pemeliharaan aplikasi. Relevan untuk engineering; tenggat telah lewat dan bukti pengalaman peserta belum cukup untuk tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Dasar OOP, SQL, API, serta Git diminta; Java/Spring Boot dan PostgreSQL menjadi nilai tambah. Bentuk tes dan tingkat persaingan belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ditemukan ulasan seleksi atau pengalaman magang yang cukup spesifik untuk peran IT pada daftar ini.",
+      "reviewCaveat": "Persyaratan pekerjaan merupakan bukti kompetensi yang diminta, bukan ukuran peluang diterima. Pengalaman dari jabatan atau lokasi lain tidak dipakai untuk memastikan proses seleksi ini.",
+      "reviewCheckedAt": "2026-10-24",
+      "tips": [
+        {
+          "title": "Fokus pada backend sesuai uraian",
+          "detail": "Siapkan contoh REST API dengan database dan Git, termasuk pengujian serta penjelasan desainnya. Jangan hanya menampilkan notebook ML karena tugas sumber terutama pengembangan aplikasi.",
+          "basis": "Saran kurasi berdasarkan uraian posisi",
+          "sourceIds": [
+            "kimia-farma-kfa-it-role"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "kimia-farma-kfa-it-role",
+          "title": "Kimia Farma Apotek (KFA) — Data Scientist Engineer Intern - KFA",
+          "url": "https://www.instagram.com/p/DeopLSwFD7d/",
+          "kind": "Poster lowongan",
+          "date": "2026-10-18",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "kimia-farma-kfa-identity",
+          "title": "Kimia Farma Apotek (KFA) — identitas perusahaan dan sumber logo",
+          "url": "https://www.kimiafarmaapotek.co.id/id/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-techfusion1-kimia-farma-data-scientist-engineer"
+      ]
     }
   ],
   "jobsMap": {
@@ -3646,61 +3196,12 @@
     "arsip-001": "terralogiq",
     "arsip-002": "paddy",
     "arsip-003": "jasti-pravita",
-    "arsip-004": "bem-unsika",
-    "arsip-005": "paddy",
-    "arsip-006": "yanmar",
-    "arsip-007": "techfusion",
     "arsip-008": "aws",
-    "arsip-009": "aws",
-    "arsip-010": "its-unidentified",
-    "arsip-011": "lima-solae",
-    "arsip-012": "inlife",
-    "arsip-013": "linktowork",
     "arsip-014": "tugure",
-    "arsip-015": "asia-to-japan",
-    "arsip-016": "linknet",
-    "arsip-017": "tirtakencana",
-    "arsip-018": "borwita",
-    "arsip-019": "techfusion",
-    "arsip-020": "talent-growth",
-    "arsip-021": "pwc",
-    "arsip-022": "coding-collective",
-    "arsip-023": "soho",
-    "arsip-024": "anabatic",
-    "arsip-025": "ocbc",
     "arsip-026": "lenovo",
-    "arsip-027": "home-credit",
-    "arsip-028": "respati",
-    "arsip-029": "dana",
-    "arsip-030": "piyotechno",
-    "arsip-031": "asean-career",
-    "arsip-032": "tiket",
-    "arsip-033": "bosch",
     "arsip-034": "dsg",
-    "arsip-035": "linktowork",
-    "arsip-036": "boogie",
-    "arsip-037": "seven-retail",
     "arsip-038": "elnusa-petrofin",
-    "arsip-039": "kcg",
-    "arsip-040": "180dc-ub",
-    "arsip-041": "bisa-project",
-    "arsip-042": "g-consulting",
-    "arsip-043": "ybb",
-    "arsip-044": "sefas",
-    "arsip-045": "tokyo-government",
-    "arsip-046": "united-tractors",
-    "arsip-047": "dairyland",
-    "arsip-048": "aluesa",
-    "arsip-049": "schneider",
-    "arsip-050": "aiesec",
-    "arsip-051": "kebun-academy",
-    "arsip-052": "wings",
-    "arsip-053": "blibli",
     "arsip-054": "aws",
-    "arsip-055": "career-creator",
-    "archive-aws-dceo": "aws",
-    "archive-schneider-134551": "schneider",
-    "archive-pmi-operations": "pmi",
     "archive-tiket-sdet-workday": "tiket",
     "web-linkedin-4480728101": "bca-digital",
     "web-linkedin-4479638052": "esb",
@@ -3713,9 +3214,44 @@
     "web-accenture-internship-r00335993": "accenture",
     "web-pwc-it-strategy-764264wd": "pwc",
     "web-blibli-developer-intern": "blibli",
+    "arsip-cosmedia-De2jTNXk6kd": "cosmedia",
+    "arsip-006": "yanmar",
+    "arsip-006-data-engineer-yiss-2027": "yanmar",
+    "arsip-012": "inlife",
+    "arsip-016": "linknet",
+    "arsip-017": "tirtakencana",
+    "arsip-018": "borwita",
+    "arsip-022": "coding-collective",
+    "arsip-022-quality-assurance-intern-ifi-batch-6": "coding-collective",
+    "arsip-024": "anabatic",
+    "arsip-024-business-intelligence-internship": "anabatic",
+    "arsip-027": "home-credit",
+    "arsip-028": "respati",
+    "arsip-028-junior-electrical-embedded-engineer": "respati",
+    "arsip-030": "piyotechno",
+    "arsip-036": "boogie",
     "arsip-ciputralife-De0-L04CX40": "ciputra-life",
-    "arsip-eskado-De0n1fPifHZ": "eskado",
-    "arsip-bmw-De1ggBMlLnx": "bmw-indonesia",
-    "arsip-cosmedia-De2jTNXk6kd": "cosmedia"
+    "arsip-010": "dnet",
+    "arsip-010-frontend": "dnet",
+    "arsip-010-system-analyst": "dnet",
+    "arsip-010-it-infrastructure": "dnet",
+    "arsip-010-datacenter-support": "dnet",
+    "arsip-023": "soho",
+    "arsip-041": "bisa-project",
+    "web-crescentrating-product-ai-systems-intern": "crescentrating",
+    "web-cat-treks-full-stack-developer-intern": "cat-treks",
+    "arsip-techfusion2-bca-product-owner": "bca-digital",
+    "arsip-techfusion2-ai-rudder-product-architecture": "ai-rudder",
+    "arsip-techfusion1-kimia-farma-data-scientist-engineer": "kimia-farma-kfa",
+    "arsip-techfusion1-pmi-software-development-30506": "pmi",
+    "arsip-tiket-business-intelligence-Des5unVoI-D": "tiket",
+    "arsip-deloitte-internal-audit-Des5unVoI-D": "deloitte",
+    "arsip-hgs-fullstack-Des5unVoI-D": "herdento",
+    "arsip-ravant-it-support-Des5unVoI-D": "ravant",
+    "arsip-taharica-data-analyst-Des5unVoI-D": "taharica",
+    "arsip-bosnet-it-project-manager-DerGiC9IOhd": "bosnet",
+    "arsip-hsbc-operations-it-Dd83nz-k2pD": "hsbc",
+    "arsip-shiseido-it-next-DeHZxENj6EB": "shiseido",
+    "arsip-mekari-product-management-DeHZxENj6EB": "mekari"
   }
 }

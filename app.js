@@ -92,7 +92,7 @@
   }
 
   function sourceTag(job) {
-    const tag = element('span', 'source-tag', job.sourceType || 'Web');
+    const tag = element('span', 'source-tag', [job.sourceType || 'Web', job.sourcePublisher].filter(Boolean).join(' · '));
     tag.dataset.source = job.sourceType || 'Web';
     return tag;
   }
@@ -191,6 +191,7 @@
     const pairs = [
       ['Lokasi', job.location || 'Cek sumber'],
       ['Ketersediaan', job.status || 'Perlu cek sumber'],
+      ...(job.sourcePublisher ? [['Penerbit sumber', job.sourcePublisher]] : []),
       ['Tanggal publikasi', dateText(job.postedDate)],
       ['Tanggal dibagikan', dateText(job.sharedDate)],
       ['Pendaftaran mulai', dateText(job.applicationStartDate, 'Belum dicantumkan')],
@@ -229,6 +230,24 @@
       actions.append(source);
     } else actions.append(element('p', 'dialog-source-note', 'Tautan sumber belum tersedia.'));
     content.append(actions);
+    for (const [sources, heading] of [[job.additionalSources, 'Sumber pendamping untuk posisi yang sama'], [job.relatedSources, 'Referensi terkait — periksa posisi dan programnya']]) {
+      if (!Array.isArray(sources) || !sources.length) continue;
+      const block = element('section', 'detail-block');
+      const list = element('ul');
+      sources.forEach((source) => {
+        const link = sourceLink(source.sourceUrl || source.url, source.label || source.title || source.sourcePublisher || 'Sumber pendamping', 'date-source-link');
+        if (!link) return;
+        const item = element('li');
+        item.append(link);
+        if (parseDate(source.postedDate)) item.append(document.createTextNode(` — dipublikasikan ${dateText(source.postedDate)}`));
+        if (parseDate(source.sharedDate)) item.append(document.createTextNode(` — dibagikan ${dateText(source.sharedDate)}`));
+        list.append(item);
+      });
+      if (list.children.length) {
+        block.append(element('h3', '', heading), list);
+        content.append(block);
+      }
+    }
     window.CompanyGuide?.appendAdvice(content, job);
     $('#job-dialog').showModal();
     document.body.style.overflow = 'hidden';
@@ -256,7 +275,7 @@
   function render() {
     const query = state.search.trim().toLocaleLowerCase('id-ID');
     const jobs = state.jobs.filter((job) => {
-      const haystack = [job.title, job.company, job.category, job.location, job.mode, job.summary, ...(job.requirements || [])].join(' ').toLocaleLowerCase('id-ID');
+      const haystack = [job.title, job.company, job.sourcePublisher, ...(job.additionalSources || []).map(source => source.sourcePublisher), job.category, job.location, job.mode, job.summary, ...(job.requirements || [])].join(' ').toLocaleLowerCase('id-ID');
       return matchesCollection(job) && (!state.category || job.category === state.category) && (!state.type || job.type === state.type) && (!state.source || job.sourceType === state.source) && (!query || haystack.includes(query)) && (!window.CompanyGuide || window.CompanyGuide.matches(job, state));
     });
     jobs.sort((a, b) => state.sort === 'company' ? a.company.localeCompare(b.company, 'id') : state.sort === 'title' ? a.title.localeCompare(b.title, 'id') : mostRelevantDate(b) - mostRelevantDate(a) || a.company.localeCompare(b.company, 'id'));
@@ -331,6 +350,19 @@
         seen.add(job.id);
         return true;
       }).map((job) => ({ ...job, requirements: Array.isArray(job.requirements) ? job.requirements : [] }));
+      let savedIdsMerged = false;
+      state.jobs.forEach((job) => {
+        (Array.isArray(job.legacyIds) ? job.legacyIds : []).forEach((oldId) => {
+          if (!state.saved.has(oldId)) return;
+          state.saved.delete(oldId);
+          state.saved.add(job.id);
+          savedIdsMerged = true;
+        });
+      });
+      if (savedIdsMerged) {
+        try { localStorage.setItem(storageKey, JSON.stringify([...state.saved])); }
+        catch { /* Merged selections still work for this session. */ }
+      }
       $('#total-jobs').textContent = state.jobs.length;
       $('#all-count').textContent = state.jobs.length;
       const sources = new Set(state.jobs.map((job) => job.sourceType).filter(Boolean));

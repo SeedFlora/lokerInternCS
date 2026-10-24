@@ -60,24 +60,33 @@
     let agendaLimit = 8;
     const events = [];
     const periods = [];
+    function postingSources(job) {
+      return [job, ...(Array.isArray(job.additionalSources) ? job.additionalSources : [])];
+    }
     for (const job of jobs) {
-      const posted = readDate(job.postedDate);
-      const shared = readDate(job.sharedDate);
       const start = readDate(job.applicationStartDate);
       const end = readDate(job.deadline);
-      if (posted) events.push({ job, date: job.postedDate, group: 'posts', type: 'posted', label: 'Dipublikasikan' });
-      if (shared) events.push({ job, date: job.sharedDate, group: 'posts', type: 'shared', label: 'Dibagikan ke arsip' });
+      const seenPosts = new Set();
+      postingSources(job).forEach(source => {
+        [['postedDate', 'posted', 'Dipublikasikan'], ['sharedDate', 'shared', 'Dibagikan ke arsip']].forEach(([field, type, label]) => {
+          if (!readDate(source[field])) return;
+          const key = `${type}:${source[field]}:${source.sourceUrl || ''}`;
+          if (seenPosts.has(key)) return;
+          seenPosts.add(key);
+          events.push({ job, date: source[field], group: 'posts', type, label, publisher: source.sourcePublisher || '' });
+        });
+      });
       if (start) events.push({ job, date: job.applicationStartDate, group: 'applications', type: 'opening', label: 'Mulai apply' });
       if (end) events.push({ job, date: job.deadline, group: 'applications', type: 'deadline', label: 'Batas daftar' });
       if (start && end && start <= end) periods.push({ job, start: job.applicationStartDate, end: job.deadline });
     }
-    const matchesJob = job => !query || plainText(`${job.company} ${job.title} ${job.category || ''} ${job.location || ''}`).includes(query);
+    const matchesJob = job => !query || plainText([job.company, job.title, job.category, job.location, job.sourcePublisher, ...(job.additionalSources || []).map(source => source.sourcePublisher)].join(' ')).includes(query);
     const filteredEvents = () => events.filter(event => matchesJob(event.job) && (kind === 'all' || kind === event.group));
     const filteredPeriods = () => kind === 'posts' ? [] : periods.filter(period => matchesJob(period.job));
     root.replaceChildren();
 
     const stats = node('div', 'calendar-summary');
-    const postCount = jobs.filter(job => readDate(job.postedDate) || readDate(job.sharedDate)).length;
+    const postCount = jobs.filter(job => postingSources(job).some(source => readDate(source.postedDate) || readDate(source.sharedDate))).length;
     const deadlineCount = jobs.filter(job => readDate(job.deadline)).length;
     for (const [value, label] of [[postCount, 'punya tanggal posting / arsip'], [periods.length, 'punya rentang apply lengkap'], [deadlineCount, 'punya batas daftar']]) {
       const item = node('div', 'calendar-stat');
@@ -284,6 +293,7 @@
         const list = node('ul', 'calendar-job-list');
         dayEvents.slice(0, agendaLimit).forEach(event => {
           let detail = event.type === 'shared' ? 'Tanggal dibagikan ke arsip; tanggal publikasi asli belum tentu sama.' : event.type === 'posted' ? 'Tanggal publikasi yang tercantum pada sumber.' : event.type === 'opening' ? 'Tanggal mulai apply menurut sumber.' : `Batas daftar menurut sumber${event.job.deadlineTime ? `, ${event.job.deadlineTime}` : ''}.`;
+          if (event.publisher) detail += ` Penerbit: ${event.publisher}.`;
           list.append(jobCard(event.job, event.label, detail, event.type));
         });
         agenda.append(list);
