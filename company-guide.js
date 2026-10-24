@@ -22,6 +22,12 @@
     return a;
   }
   function profileFor(job) { return state.byId.get(state.jobsMap[job.id]) || null; }
+  function reviewDateText(value) {
+    if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return 'Tanggal belum tersedia';
+    const date = new Date(`${value}T12:00:00+07:00`);
+    if (Number.isNaN(date.getTime())) return 'Tanggal belum tersedia';
+    return new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Jakarta' }).format(date);
+  }
   function badge(text, kind) {
     const span = el('span', `advice-badge ${kind || ''}`, text);
     return span;
@@ -79,7 +85,7 @@
     const difficultyReason = el('div');
     difficultyReason.append(el('h3', '', 'Kenapa tingkat seleksinya demikian'), el('p', '', profile.difficultyReason || 'Tahapan dan tingkat kompetisi belum dapat dipastikan dari sumber yang tersedia.'));
     reasons.append(tierReason, difficultyReason); block.append(reasons);
-    block.append(el('p', 'confidence-line', `Keyakinan penilaian: ${profile.confidence || 'Rendah'} · Ditinjau 23 Oktober 2026`));
+    block.append(el('p', 'confidence-line', `Keyakinan penilaian: ${profile.confidence || 'Rendah'} · Ditinjau ${reviewDateText(profile.reviewCheckedAt)}`));
     const review = el('section', 'review-panel');
     review.append(el('h3', '', 'Cerita kandidat & peserta magang'), el('p', '', profile.reviewSummary || 'Belum ditemukan ulasan seleksi yang cukup spesifik untuk peran pada daftar ini.'));
     review.append(el('p', 'review-caveat', profile.reviewCaveat || 'Pengalaman individu dapat berbeda menurut posisi, lokasi, dan tahun. Penilaian kesulitan bukan peluang penerimaan yang terukur.'));

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "assessmentScope": "Penilaian kurasi kecocokan peluang yang tercantum bagi mahasiswa CS; bukan peringkat resmi perusahaan atau peluang penerimaan yang terukur.",
   "sourcePolicy": "Logo terutama berasal dari situs resmi; beberapa dari kanal rekrutmen atau profil perusahaan terverifikasi. URL dan batas verifikasi disimpan pada setiap identitas. Identitas yang belum jelas memakai ikon netral.",
   "companies": [
@@ -85,12 +85,21 @@
           "kind": "Ulasan kandidat",
           "date": null,
           "checkedAt": "2026-10-23"
+        },
+        {
+          "id": "goto-oct24-goto-data-payments-6b94bbd0",
+          "title": "GoTo Group / GoPay — Data Analyst Intern - Data Payments",
+          "url": "https://jobs.lever.co/GoToGroup/6b94bbd0-2afe-4f28-8e59-6b1901dd1293",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
         }
       ],
       "jobIds": [
         "web-goto-data-scientist-816f2d4c",
         "web-goto-data-scientist-dff2a165",
-        "web-goto-data-analyst-f3566bb7"
+        "web-goto-data-analyst-f3566bb7",
+        "web-goto-data-payments-6b94bbd0"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1331,9 +1340,9 @@
       "notes": null,
       "sourcePage": "https://www.linknet.co.id/",
       "recommendationTier": "A",
-      "recommendationReason": "Posisi Junior Developer relevan untuk CS, dengan peluang belajar sistem perusahaan. Stack dan porsi implementasi perlu diperiksa pada lowongan terbaru.",
+      "recommendationReason": "Posisi Junior Developer relevan untuk CS, dengan peluang belajar sistem perusahaan. Stack dan porsi implementasi perlu diperiksa pada lowongan terbaru. Untuk Data Analyst Intern, periksa tugas SQL, Python, dan analisis bisnis; tier profil ini belum merupakan penilaian khusus atas peran data tersebut.",
       "difficulty": "Sedang",
-      "difficultyReason": "Inferensi untuk posisi developer yang memerlukan bukti kemampuan proyek. Pengalaman magang publik yang ditemukan berasal dari fungsi lain sehingga tidak cukup untuk menilai tes developer.",
+      "difficultyReason": "Inferensi untuk posisi developer yang memerlukan bukti kemampuan proyek. Pengalaman magang publik yang ditemukan berasal dari fungsi lain sehingga tidak cukup untuk menilai tes developer. Perkiraan untuk developer atau pengalaman Reward tidak memastikan proses seleksi Data Analyst Intern.",
       "confidence": "Rendah",
       "reviewSummary": "Laporan mahasiswa magang Reward menjelaskan wawancara Talent Acquisition dan permintaan karya desain. Ini pengalaman langsung di fungsi nondeveloper.",
       "reviewCaveat": "Laporan 2023 untuk Reward, bukan Junior Developer. Hanya menjadi gambaran variasi seleksi dan kebutuhan bukti karya.",
@@ -1369,10 +1378,19 @@
           "kind": "Ulasan kandidat",
           "date": "2023",
           "checkedAt": "2026-10-23"
+        },
+        {
+          "id": "linknet-oct24-linkedin-4465032713",
+          "title": "PT Link Net Tbk — Data Analyst Intern",
+          "url": "https://id.linkedin.com/jobs/view/data-analyst-intern-at-pt-link-net-tbk-4465032713",
+          "kind": "Lowongan perusahaan di LinkedIn",
+          "date": null,
+          "checkedAt": "2026-10-24"
         }
       ],
       "jobIds": [
-        "arsip-016"
+        "arsip-016",
+        "web-linkedin-4465032713"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -1534,9 +1552,9 @@
       "notes": null,
       "sourcePage": "https://www.pwc.com/",
       "recommendationTier": "B",
-      "recommendationReason": "Berguna bila ingin memadukan data, analisis, dan konsultansi. Entri arsip adalah CMAAS/akuntansi; untuk tujuan software engineering, kecocokan peran lebih rendah dan perlu mencari penempatan teknologi yang sesuai.",
+      "recommendationReason": "Berguna bila ingin memadukan data, analisis, dan konsultansi. Entri arsip adalah CMAAS/akuntansi; untuk tujuan software engineering, kecocokan peran lebih rendah dan perlu mencari penempatan teknologi yang sesuai. IT Strategy Stream berfokus pada teknologi, data, dan integrasi; tier profil ini belum merupakan penilaian khusus terhadap peluang tersebut.",
       "difficulty": "Sulit",
-      "difficultyReason": "Panduan PwC Indonesia mencantumkan persyaratan akademik, komunikasi, dan seleksi yang dapat melibatkan asesmen atau kasus sesuai layanan. CMAAS menuntut kecocokan pengetahuan akuntansi; brand perusahaan tidak otomatis membuat semua jurusan cocok.",
+      "difficultyReason": "Panduan PwC Indonesia mencantumkan persyaratan akademik, komunikasi, dan seleksi yang dapat melibatkan asesmen atau kasus sesuai layanan. CMAAS menuntut kecocokan pengetahuan akuntansi; brand perusahaan tidak otomatis membuat semua jurusan cocok. Syarat akuntansi CMAAS dan pengalaman divisi lain tidak boleh diterapkan otomatis pada seleksi IT Strategy Stream.",
       "confidence": "Sedang",
       "reviewSummary": "Intern Tax Indonesia menekankan wawancara Inggris dan pertanyaan spesifik bidang. Intern Deals & Strategy Operations menyorot studi kasus, berpikir logis, dan adaptasi pada proyek berjalan.",
       "reviewCaveat": "Kedua cerita berasal dari divisi berbeda dengan CMAAS. Portal internship dan FAQ juga merinci variasi tahap; tanyakan alur yang berlaku untuk lowongan Anda.",
@@ -1601,10 +1619,19 @@
           "kind": "Ulasan kandidat",
           "date": null,
           "checkedAt": "2026-10-23"
+        },
+        {
+          "id": "pwc-oct24-pwc-it-strategy-764264wd",
+          "title": "PwC Indonesia — Internship - Digital, Cloud, Data - IT Strategy Stream",
+          "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Jakarta/Internship---Digital--Cloud--Data---IT-Strategy-Stream_764264WD",
+          "kind": "Resmi",
+          "date": "2026-09-25",
+          "checkedAt": "2026-10-24"
         }
       ],
       "jobIds": [
-        "arsip-021"
+        "arsip-021",
+        "web-pwc-it-strategy-764264wd"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -2241,10 +2268,28 @@
           "kind": "Ulasan kandidat",
           "date": null,
           "checkedAt": "2026-10-23"
+        },
+        {
+          "id": "bosch-oct24-bosch-it-support-744000155433589",
+          "title": "Bosch Indonesia — IT Support Intern - Januari–Juni 2027",
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155433589-it-support-intern",
+          "kind": "Resmi",
+          "date": "2026-10-14",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "bosch-oct24-bosch-iot-744000155438299",
+          "title": "Bosch Indonesia — IoT Engineer Intern (Jakarta) - Januari–Juni 2027",
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155438299-iot-engineer-intern-jakarta-",
+          "kind": "Resmi",
+          "date": "2026-10-14",
+          "checkedAt": "2026-10-24"
         }
       ],
       "jobIds": [
-        "arsip-033"
+        "arsip-033",
+        "web-bosch-it-support-744000155433589",
+        "web-bosch-iot-744000155438299"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -3156,7 +3201,8 @@
         }
       ],
       "jobIds": [
-        "arsip-053"
+        "arsip-053",
+        "web-blibli-developer-intern"
       ],
       "reviewCheckedAt": "2026-10-23"
     },
@@ -3246,6 +3292,341 @@
         "archive-pmi-operations"
       ],
       "reviewCheckedAt": "2026-10-23"
+    },
+    {
+      "id": "bca-digital",
+      "label": "BCA Digital",
+      "aliases": [
+        "PT Bank Digital BCA (BCA Digital)",
+        "BCA Digital"
+      ],
+      "kind": "employer",
+      "domain": "bcadigital.co.id",
+      "website": "https://bcadigital.co.id/",
+      "logo": "./assets/companies/bca-digital.png",
+      "sourceUrl": "https://bcadigital.co.id/favicon.ico",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://bcadigital.co.id/",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Peluang Business Intelligence dan IT Quality Assurance berhubungan dengan CS. Bukti mengenai pengalaman magang dan proses rekrutmen belum cukup ditinjau untuk menetapkan tier perusahaan.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Syarat teknis pada iklan mencakup analisis data atau QA, tetapi tahapan seleksi dan tingkat kompetisinya belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Ketersediaan iklan dan persyaratan peran tidak membuktikan pengalaman magang atau peluang diterima. Periksa sumber lowongan untuk ketentuan terbaru.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "bca-digital-oct24-linkedin-4480728101",
+          "title": "PT Bank Digital BCA (BCA Digital) — Business Intelligence Analyst (Internship)",
+          "url": "https://id.linkedin.com/jobs/view/business-intelligence-analyst-internship-at-pt-bank-digital-bca-bca-digital-4480728101",
+          "kind": "Lowongan perusahaan di LinkedIn",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "bca-digital-oct24-linkedin-4458948926",
+          "title": "PT Bank Digital BCA (BCA Digital) — IT Quality Assurance Internship",
+          "url": "https://id.linkedin.com/jobs/view/it-quality-assurance-internship-at-pt-bank-digital-bca-bca-digital-4458948926",
+          "kind": "Lowongan perusahaan di LinkedIn",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "web-linkedin-4480728101",
+        "web-linkedin-4458948926"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "esb",
+      "label": "ESB / Esensi Solusi Buana",
+      "aliases": [
+        "PT Esensi Solusi Buana (ESB)",
+        "ESB",
+        "Esensi Solusi Buana"
+      ],
+      "kind": "employer",
+      "domain": "www.esb.id",
+      "website": "https://www.esb.id/id",
+      "logo": "./assets/companies/esb.png",
+      "sourceUrl": "https://www.esb.id/favicon-192x192.png?v=2",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://www.esb.id/id",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "QA Engineer Intern memberi paparan test case, pengujian manual, dan pelaporan bug. Kualitas pendampingan serta pengalaman peserta belum cukup ditinjau untuk menetapkan tier perusahaan.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Iklan meminta dasar SDLC dan pengujian, tetapi format tes atau wawancara serta tingkat kompetisi belum terverifikasi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Ketersediaan iklan dan persyaratan peran tidak membuktikan pengalaman magang atau peluang diterima. Periksa sumber lowongan untuk ketentuan terbaru.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "esb-oct24-linkedin-4479638052",
+          "title": "PT Esensi Solusi Buana (ESB) — Quality Assurance Engineer Intern",
+          "url": "https://id.linkedin.com/jobs/view/quality-assurance-engineer-intern-at-pt-esensi-solusi-buana-esb-4479638052",
+          "kind": "Lowongan perusahaan di LinkedIn",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "web-linkedin-4479638052"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "mekari",
+      "label": "Mekari",
+      "aliases": [
+        "Mekari"
+      ],
+      "kind": "employer",
+      "domain": "mekari.com",
+      "website": "https://mekari.com/",
+      "logo": "./assets/companies/mekari.png",
+      "sourceUrl": "https://mekari.com/wp-content/uploads/2020/09/cropped-ms-icon-310x310-192x192.png",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://mekari.com/",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Product Security Engineer Intern relevan untuk minat keamanan aplikasi, API, dan pengujian kerentanan. Bukti pengalaman peserta serta pendampingan untuk peran ini belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Ruang lingkup keamanan aplikasi pada iklan tidak memastikan format atau kesulitan seleksi. Belum ada bukti tahap rekrutmen khusus peran ini.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Ketersediaan iklan dan persyaratan peran tidak membuktikan pengalaman magang atau peluang diterima. Periksa sumber lowongan untuk ketentuan terbaru.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "mekari-oct24-linkedin-4475224663",
+          "title": "Mekari — Product Security Engineer Intern (Next Level Internship)",
+          "url": "https://id.linkedin.com/jobs/view/product-security-engineer-intern-next-level-internship-at-mekari-4475224663",
+          "kind": "Lowongan perusahaan di LinkedIn",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "web-linkedin-4475224663"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "accenture",
+      "label": "Accenture Indonesia",
+      "aliases": [
+        "Accenture Indonesia",
+        "Accenture"
+      ],
+      "kind": "employer",
+      "domain": "www.accenture.com",
+      "website": "https://www.accenture.com/id-en",
+      "logo": "./assets/companies/accenture.png",
+      "sourceUrl": "https://www.accenture.com/favicon.ico",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://www.accenture.com/id-en",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Program Technology & Consulting mencakup peluang teknologi dan data dengan penugasan menurut kebutuhan bisnis. Pengalaman proyek, pendampingan, dan kesesuaian penempatan belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Persyaratan resmi menjelaskan dasar akademik dan ketersediaan magang, tetapi belum cukup bukti mengenai tahapan seleksi khusus program Indonesia ini.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Ketersediaan iklan dan persyaratan peran tidak membuktikan pengalaman magang atau peluang diterima. Periksa sumber lowongan untuk ketentuan terbaru.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "accenture-oct24-accenture-internship-r00335993",
+          "title": "Accenture Indonesia — Indonesia Internship Program - Technology & Consulting",
+          "url": "https://www.accenture.com/id-en/careers/jobdetails?id=R00335993_en",
+          "kind": "Resmi",
+          "date": "2026-09-22",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "web-accenture-internship-r00335993"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "ciputra-life",
+      "label": "Ciputra Life",
+      "aliases": [
+        "Ciputra Life"
+      ],
+      "kind": "employer",
+      "domain": "www.ciputralife.com",
+      "website": "https://www.ciputralife.com/",
+      "logo": "./assets/companies/ciputra-life.png",
+      "sourceUrl": "https://www.ciputralife.com/images/logo/apple-touch-icon.png?v=1757580270",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://www.ciputralife.com/",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "IT Admin Support dapat relevan untuk minat infrastruktur dan dukungan IT, sementara Claim Admin berfokus pada administrasi. Pengalaman peserta dan pendampingan belum cukup ditinjau untuk menetapkan tier perusahaan.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Syarat tiap peran berbeda. Uraian IT Admin Support dan Claim Admin tidak memastikan format tes atau tingkat kompetisi seleksi.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "ciputra-life-oct24-post",
+          "title": "Ciputra Life — Peluang Internship — IT Admin Support & Claim Admin",
+          "url": "https://www.instagram.com/p/De0-L04CX40/",
+          "kind": "Sumber lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "ciputra-life-official",
+          "title": "Ciputra Life — portal karier resmi",
+          "url": "https://www.ciputralife.com/karier",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-ciputralife-De0-L04CX40"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "eskado",
+      "label": "Eskado Studio",
+      "aliases": [
+        "Eskado Studio"
+      ],
+      "kind": "employer",
+      "domain": "eskadostudio.com",
+      "website": "https://eskadostudio.com/",
+      "logo": "./assets/companies/eskado.png",
+      "sourceUrl": "https://i0.wp.com/eskadostudio.com/wp-content/uploads/2026/02/logo.jpg?fit=192%2C192&ssl=1",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://eskadostudio.com/",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Peluang 3D Artist sesuai untuk minat game art dan produksi aset, dengan kecocokan yang bergantung pada portofolio. Pengalaman peserta dan pendampingan belum cukup ditinjau untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Kualifikasi lengkap dan proses seleksi angkatan Oktober belum terkonfirmasi. Persyaratan pada halaman program umum tidak memastikan ketentuan angkatan ini.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "eskado-oct24-post",
+          "title": "Eskado Studio — 3D Character, Props & Environment Artist Intern",
+          "url": "https://www.instagram.com/p/De0n1fPifHZ/",
+          "kind": "Sumber lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "eskado-official",
+          "title": "Eskado Studio — halaman program umum Game Art Internship 2026",
+          "url": "https://eskadostudio.com/2026/06/29/game-art-internship-2026/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-eskado-De0n1fPifHZ"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "bmw-indonesia",
+      "label": "BMW Group Indonesia",
+      "aliases": [
+        "BMW Group Indonesia"
+      ],
+      "kind": "employer",
+      "domain": "www.bmw.co.id",
+      "website": "https://www.bmw.co.id/en/index.html",
+      "logo": "./assets/companies/bmw.svg",
+      "sourceUrl": "https://www.bmw.co.id/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.svg.asset.1756199978277.svg",
+      "logoStatus": "Logo dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://www.bmw.co.id/en/index.html",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Sales Intern berfokus pada penjualan otomotif. Hubungannya dengan target karier CS perlu dipertimbangkan dari tugas lengkap; bukti yang ditinjau belum cukup untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Caption belum merinci syarat pendidikan, tahapan seleksi, atau asesmen. Tingkat kompetisi dan peluang lolos tidak dapat dipastikan.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "bmw-indonesia-oct24-post",
+          "title": "BMW Group Indonesia — Sales Intern",
+          "url": "https://www.instagram.com/p/De1ggBMlLnx/",
+          "kind": "Sumber lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-bmw-De1ggBMlLnx"
+      ],
+      "reviewCheckedAt": "2026-10-24"
+    },
+    {
+      "id": "cosmedia",
+      "label": "Cosmedia",
+      "aliases": [
+        "Cosmedia",
+        "COSMEDIA",
+        "株式会社コスメディア"
+      ],
+      "kind": "employer",
+      "domain": "cosmedia.co.jp",
+      "website": "https://cosmedia.co.jp/",
+      "logo": "./assets/companies/cosmedia.png",
+      "sourceUrl": "https://cosmedia.co.jp/common/images/webicon.png",
+      "logoStatus": "Ikon dari situs resmi",
+      "notes": null,
+      "sourcePage": "https://cosmedia.co.jp/",
+      "recommendationTier": "Belum dinilai",
+      "recommendationReason": "Program AWS Cloud dan AI yang dibagikan ITB Career Center relevan untuk minat cloud dan AI. Ruang lingkup proyek serta pendampingan belum cukup terperinci untuk menetapkan tier.",
+      "difficulty": "Belum cukup data",
+      "difficultyReason": "Caption belum menyebut persyaratan peserta atau proses seleksi. Status AWS partner perusahaan tidak memastikan tahapan seleksi program magang.",
+      "confidence": "Rendah",
+      "reviewSummary": "Belum ada ulasan kandidat atau peserta magang yang cukup relevan ditinjau untuk peran pada daftar ini.",
+      "reviewCaveat": "Belum tersedia ulasan peserta atau kandidat yang ditinjau untuk program ini. Penilaian kesulitan bukan peluang penerimaan yang terukur. Nama Jepang serta logo pada publikasi ITB telah dicocokkan dengan situs perusahaan. Pencocokan identitas tidak memastikan ketentuan atau formulir apply program magang.",
+      "tips": [],
+      "sources": [
+        {
+          "id": "cosmedia-oct24-post",
+          "title": "Cosmedia — Paid AWS Cloud + AI Remote Internship",
+          "url": "https://www.instagram.com/p/De2jTNXk6kd/",
+          "kind": "Sumber lowongan",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "id": "cosmedia-official",
+          "title": "Cosmedia — identitas resmi 株式会社コスメディア",
+          "url": "https://cosmedia.co.jp/company/",
+          "kind": "Resmi",
+          "date": null,
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "jobIds": [
+        "arsip-cosmedia-De2jTNXk6kd"
+      ],
+      "reviewCheckedAt": "2026-10-24"
     }
   ],
   "jobsMap": {
@@ -3320,6 +3701,21 @@
     "archive-aws-dceo": "aws",
     "archive-schneider-134551": "schneider",
     "archive-pmi-operations": "pmi",
-    "archive-tiket-sdet-workday": "tiket"
+    "archive-tiket-sdet-workday": "tiket",
+    "web-linkedin-4480728101": "bca-digital",
+    "web-linkedin-4479638052": "esb",
+    "web-linkedin-4475224663": "mekari",
+    "web-linkedin-4465032713": "linknet",
+    "web-linkedin-4458948926": "bca-digital",
+    "web-goto-data-payments-6b94bbd0": "goto",
+    "web-bosch-it-support-744000155433589": "bosch",
+    "web-bosch-iot-744000155438299": "bosch",
+    "web-accenture-internship-r00335993": "accenture",
+    "web-pwc-it-strategy-764264wd": "pwc",
+    "web-blibli-developer-intern": "blibli",
+    "arsip-ciputralife-De0-L04CX40": "ciputra-life",
+    "arsip-eskado-De0n1fPifHZ": "eskado",
+    "arsip-bmw-De1ggBMlLnx": "bmw-indonesia",
+    "arsip-cosmedia-De2jTNXk6kd": "cosmedia"
   }
 }
