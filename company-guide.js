@@ -170,7 +170,9 @@
       });
       grid.append(row);
     });
-    $('#guide-results').textContent = state.error ? 'Panduan belum bisa dimuat. Daftar lowongan tetap dapat dijelajahi.' : profiles.length ? `${profiles.length} perusahaan · Klik ikon untuk alasan, ulasan, dan tips.` : 'Belum ada perusahaan yang sesuai filter ini.';
+    const employers = state.profiles.filter((p) => p.kind === 'employer');
+    const rated = employers.filter((p) => ['S', 'A', 'B'].includes(p.recommendationTier)).length;
+    $('#guide-results').textContent = state.error ? 'Panduan belum bisa dimuat. Daftar lowongan tetap dapat dijelajahi.' : profiles.length ? `${profiles.length} perusahaan · ${rated}/${employers.length} sudah punya tier · Klik ikon untuk alasan, ulasan, dan tips.` : 'Belum ada perusahaan yang sesuai filter ini.';
     $('#guide-expand').hidden = true;
   }
   $('#guide-filters').addEventListener('submit', (e) => e.preventDefault());
